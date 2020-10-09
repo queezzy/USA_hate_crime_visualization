@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" type = "text/css" href="dist/css/visualisation_main.css">
+    <link rel="stylesheet" type = "text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" href="#">Accueil <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Visualisation</a>
+            <a class="nav-link" href="#Visualisations">Visualisation</a>
             <a class="nav-link" href="#">Contributeurs</a>
             <!--a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a-->
           </div>
@@ -30,7 +31,6 @@
             <a class="nav-link" href="#">Hazim DAHMANI </a>
             <a class="nav-link" href="#">Yacouba FOFANA </a>
             <a class="nav-link" href="#">Franck NFOTABONG</a>
-            <!--a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a-->
           </div>
         </div>
       </nav>
@@ -47,7 +47,7 @@
             <p><h2>UNITED STATES' HATE CRIME VISUALISATION</h2></p>
             <p>Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
               entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
-              Ces incidents haineux sonKey Conceptst des incidents principalement motivés par le biais d'appartenance à une communauté particulière
+              Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
               (Race, Religion, Genre, Orientation sexuelle, ...). 
             </p>
           </div>
@@ -58,7 +58,7 @@
           <div class="card  col-4 px-0">
               <div class="card-header text-white bg-dark">DATASET</div>
                 <div class="card-body text-black">
-                  <h5 class="card-title">Secondary card title</h5>
+                  <!--h5 class="card-title">Secondary card title</h5-->
                   <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
                     entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
                     Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
@@ -70,7 +70,7 @@
           <div class="card  col-4 px-0">
             <div class="card-header text-white bg-dark">METHODOLOGY</div>
               <div class="card-body text-black">
-                <h5 class="card-title">Secondary card title</h5>
+                <!--h5 class="card-title">Secondary card title</h5-->
                 <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
                   entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
                   Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
@@ -82,7 +82,7 @@
           <div class="card  col-4 px-0">
             <div class="card-header text-white bg-dark">KEY CONCEPTS</div>
               <div class="card-body text-black">
-                <h5 class="card-title">Secondary card title</h5>
+                <!--h5 class="card-title">Secondary card title</h5-->
                 <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
                   entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
                   Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
@@ -94,149 +94,236 @@
         </div>
       </div>
 
-      <div class="container accordion px-0" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
+      
+      <div class="container accordion px-0 py-3" id="accordionExample">
+        <h2>Visualisations</h2>
+        <hr class="text-success"/>
+        <div class="card" id="Visualisations">
+          <div class="card-header bg-dark m-0 py-2" id="headingOne">
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Hate Crime snapshot in 2018
+                <input class="custom-checkbox" type="checkbox" id="checkbox1">
+                <label class="tab-label text-white mb-0" for="checkbox1"> Crime snapshot in 2018 </label>
               </button>
             </h2>
           </div>
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
               <div class="container">
 
                 <div class="row">
                   <div class="col-5">
-                    <div class="row">
 
-                      <h2>Wiki</h2>
+                    <h4 class="text-bold">Description</h4>
                     <p>
-                      Insérer la desciption du diagramme et ce qu'il représente.
-                      Ainsi que les données utilisées
+                      Insérer la desciption du schéma et ce qu'il représente.
+                      Ainsi que les données utilisées. Justifier également le choix 
+                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
                     </p>
 
-                    </div>
-                    <div class="row">
+                  </div>
+                  <div class="col col-7 visual-variable-tableau">
 
-                      <h3>Variables visuelles engagées</h3>
-                      <div class="col">
-                        <table class="table table-striped">
-                          <thead>
-                            <tr>
-                              <th scope="col">Variable (type de variable)  </th>
-                              <th scope="col">Variable Visuelle</th>
-                              <th scope="col">Description</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th>Pays (Nominal) </th>
-                              <td>teinte</td>
-                              <td>Définit le degré d'incidence de haine</td>
-                            </tr>
-                            <tr>
-                              <th>2</th>
-                              <td>Thornton</td>
-                              <td>@fat</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td>the Bird</td>
-                              <td>@twitter</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
+                    <h4>Variables visuelles engagées</h4>
+                    <div class="">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Variable (type de variable)  </th>
+                            <th scope="col">Variable Visuelle</th>
+                            <th scope="col">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Pays (Nominal) </td>
+                            <td>teinte</td>
+                            <td>Définit le degré d'incidence de haine</td>
+                          </tr>
+                          <tr>
+                            <td>Nombre d'incidents (Numérique)</td>
+                            <td>Teinte</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                          <tr>
+                            <td>Type d'incident</td>
+                            <td>Position</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
-                    
+                  </div>
                   
                   
-                  </div>
-                  <div class="col-7">
-                    <h3 class="center">SVG GRAPH HERE</h3> 
-                  </div>
-
+                </div>
+                <div class="row justify-content-center mt-3">
+                  <h3 class="">SVG GRAPH HERE</h3>
                 </div>
 
-                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header bg-light m-0 py-2" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <input class="custom-checkbox" type="checkbox" id="checkbox2">
+                <label class="tab-label text-dark mb-0" for="checkbox2"> Crime snapshot in 2018 </label>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="container">
+
+                <div class="row">
+                  <div class="col-5">
+
+                    <h4 class="text-bold">Description</h4>
+                    <p>
+                      Insérer la desciption du schéma et ce qu'il représente.
+                      Ainsi que les données utilisées. Justifier également le choix 
+                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                    </p>
+
+                  </div>
+                  <div class="col col-7 visual-variable-tableau">
+
+                    <h4>Variables visuelles engagées</h4>
+                    <div class="">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Variable (type de variable)  </th>
+                            <th scope="col">Variable Visuelle</th>
+                            <th scope="col">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Pays (Nominal) </td>
+                            <td>teinte</td>
+                            <td>Définit le degré d'incidence de haine</td>
+                          </tr>
+                          <tr>
+                            <td>Nombre d'incidents (Numérique)</td>
+                            <td>Teinte</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                          <tr>
+                            <td>Type d'incident</td>
+                            <td>Position</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="row justify-content-center mt-3">
+                  <h3 class="">SVG GRAPH HERE</h3>
+                </div>
+
               </div>
               
             </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-             <div>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
-             </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
+          <div class="card-header bg-dark m-0 py-2" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
+                <input class="custom-checkbox" type="checkbox" id="checkbox3">
+                <label class="tab-label text-white mb-0" for="checkbox3"> Crime snapshot in 2018 </label>
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <div class="container">
+
+                <div class="row">
+                  <div class="col-5">
+
+                    <h4 class="text-bold">Description</h4>
+                    <p>
+                      Insérer la desciption du schéma et ce qu'il représente.
+                      Ainsi que les données utilisées. Justifier également le choix 
+                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                    </p>
+
+                  </div>
+                  <div class="col col-7 visual-variable-tableau">
+
+                    <h4>Variables visuelles engagées</h4>
+                    <div class="">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Variable (type de variable)  </th>
+                            <th scope="col">Variable Visuelle</th>
+                            <th scope="col">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Pays (Nominal) </td>
+                            <td>teinte</td>
+                            <td>Définit le degré d'incidence de haine</td>
+                          </tr>
+                          <tr>
+                            <td>Nombre d'incidents (Numérique)</td>
+                            <td>Teinte</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                          <tr>
+                            <td>Type d'incident</td>
+                            <td>Position</td>
+                            <td>Insérer la description appropriée</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="row justify-content-center mt-3">
+                  <h3 class="">SVG GRAPH HERE</h3>
+                </div>
+
+              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-
+  </br> </br> </br> </br>
+    <footer class="footer bg-dark py-3" >
+      <div class="container">
+        <span class="text-muted">Copyright&copy; Big Data ENSIMAG 2020 - Hazim DAHMANI - Yacouba FOFANA - Franck NFOTABONG</span>
+      </div>
     </footer>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="dist/js/visualisation_main.js"> </script>
+    <!--script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script-->
   </body>
 </html>
