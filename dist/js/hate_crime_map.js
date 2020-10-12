@@ -131,10 +131,9 @@ var tooltip;
 var quantile
 Promise.all(promises).then(function(values) {
     geojson = values[0]
-    //console.log(geojson)
-    
-    console.log(actual_year);
+
     incidents_all = values[1];
+  
     
     /*var b  = path.bounds(geojson),
         s = 0.20 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
@@ -215,30 +214,29 @@ function render(actual_year,actual_curve,build_legend){
 
     scores.forEach(function(e,i) {
         var countryPath = d3.select("#code" + e.State_Code);
-        countryPath
-            .attr("scorecolor", quantile(+e[actual_curve]))
-            .style("fill", quantile(+e[actual_curve]))
-            .on("mouseover", function(d) {
-                countryPath.style("fill", "#9966cc");
-                tooltip.style("display", null);
-                tooltip.select('#tooltip-country')
-                        .text(e.State_label)
-                    //.text(shortCountryName(e.State_label));
-                tooltip.select('#tooltip-score')
-                    .text(e[actual_curve]);
-                legend.select("#cursor")
-                    .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (getColorIndex(quantile(+e[actual_curve])) * legendCellSize) + ')')
-                    .style("display", null);
-            })
-            .on("mouseout", function(d) {
-                countryPath.style("fill", quantile(+e[actual_curve]));
-                tooltip.style("display", "none");
-                legend.select("#cursor").style("display", "none");
-            })
-            .on("mousemove", function(d) {
-                var mouse = d3.mouse(this);
-                tooltip.attr("transform", "translate(" + mouse[0] + "," + (mouse[1] - 75) + ")");
-            });
+        countryPath.attr("scorecolor", quantile(+e[actual_curve]))
+                    .style("fill", quantile(+e[actual_curve]))
+                    .on("mouseover", function(d) {
+                        countryPath.style("fill", "#9966cc");
+                        tooltip.style("display", null);
+                        tooltip.select('#tooltip-country')
+                                .text(e.State_label)
+                            //.text(shortCountryName(e.State_label));
+                        tooltip.select('#tooltip-score')
+                            .text(e[actual_curve]);
+                        legend.select("#cursor")
+                            .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (getColorIndex(quantile(+e[actual_curve])) * legendCellSize) + ')')
+                            .style("display", null);
+                    })
+                    .on("mouseout", function(d) {
+                        countryPath.style("fill", quantile(+e[actual_curve]));
+                        tooltip.style("display", "none");
+                        legend.select("#cursor").style("display", "none");
+                    })
+                    .on("mousemove", function(d) {
+                        var mouse = d3.mouse(this);
+                        tooltip.attr("transform", "translate(" + mouse[0] + "," + (mouse[1] - 75) + ")");
+                    });
     });
 
 }
