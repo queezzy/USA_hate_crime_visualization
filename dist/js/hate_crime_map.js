@@ -9,6 +9,7 @@ var colors = ['#ffcccc', '#ffb3b3', '#ff9999', '#ff8080', '#ff6666', '#ff4d4d', 
 
 
 var legend = svg.append("g").attr("transform","translate(40,50)")
+var tooltip;
 
 function addLegend(min,max){
 
@@ -33,7 +34,9 @@ function addLegend(min,max){
 
 
 function addTooltip() {
-    var tooltip = svg.append("g") // Group for the whole tooltip
+
+
+    tooltip = svg.append("g") // Group for the whole tooltip
         .attr("id", "tooltip")
         .style("display", "none");
     
@@ -78,6 +81,7 @@ function addTooltip() {
         .attr("id", "tooltip-score")
         .style("fill","#c1d3b8")
         .style("font-weight", "bold");
+
     
     return tooltip;
 }
@@ -100,10 +104,10 @@ const path = d3.geoPath()
     .pointRadius(2)
     .projection(projection);*/
 
-    var projection = d3.geoAlbersUsa()
-    .translate([width/2, height/2])    // translate to center of screen
-    .scale([600]); 
-    var path = d3.geoPath()               // path generator that will convert GeoJSON to SVG paths
+var projection = d3.geoAlbersUsa()
+                    .translate([width/2, height/2])    // translate to center of screen
+                    .scale([600]); 
+var path = d3.geoPath()               // path generator that will convert GeoJSON to SVG paths
 		  	 .projection(projection); 
     
 const cGroup = svg.append("g");
@@ -146,7 +150,7 @@ Promise.all(promises).then(function(values) {
             .append("path")
             .attr("d", path)
             .attr("id", d => "code" + d.properties.STATE_CODE)
-            .attr("class","us_state_boundary")
+            .attr("class","us_state_boundary");
             //.attr("class", "country");
     
     tooltip = addTooltip();
@@ -206,8 +210,8 @@ function render(actual_year,actual_curve,build_legend){
 
     d3.selectAll(".us_state_boundary").style("fill","gray")
                                         .on("mouseover",null)
-                                        .on("mouseover",null)
-                                        .on("mouseout",null)
+                                        .on("mousemove",null)
+                                        .on("mouseout",null);
 
     scores.forEach(function(e,i) {
         var countryPath = d3.select("#code" + e.State_Code);

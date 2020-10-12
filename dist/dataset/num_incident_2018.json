@@ -1,0 +1,138 @@
+{
+    "name": "Number of Incidents",
+    "children": [
+        {
+            "name": "Racial bias",
+            "children": [
+                {
+                    "name": "Anti white",
+                    "value": 762
+                },
+                {
+                    "name": "Anti Black",
+                    "value": 1943
+                },
+                {
+                    "name": "Anti American Indian Alaska Native",
+                    "value": 194
+                },
+                {
+                    "name": "Anti Asian",
+                    "value": 148
+                },
+                {
+                    "name": "Anti Hawaiian Pacific Islander",
+                    "value": 20
+                },
+                {
+                    "name": "Anti Multiple Race Group",
+                    "value": 137
+                },
+                {
+                    "name": "Anti Hispanic",
+                    "value": 485
+                },
+                {
+                    "name": "Anti Other Ethnicity",
+                    "value": 276
+                }
+            ]
+        },
+        {
+            "name": "Religious bias",
+            "children": [
+                {
+                    "name": "Anti Jewish",
+                    "value": 835
+                },
+                {
+                    "name": "Anti Catholic",
+                    "value": 53
+                },
+                {
+                    "name": "Anti Protestant",
+                    "value": 34
+                },
+                {
+                    "name": "Anti Islamic",
+                    "value": 188
+                },
+                {
+                    "name": "Anti Other Religion",
+                    "value": 91
+                },
+                {
+                    "name": "Anti Multiple Religions Group",
+                    "value": 46
+                },
+                {
+                    "name": "Anti Atheism Agnosticism etc",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "Sexual Orientation bias",
+            "children": [
+                {
+                    "name": "Anti Gay",
+                    "value": 726
+                },
+                {
+                    "name": "Anti Lesbian",
+                    "value": 129
+                },
+                {
+                    "name": "Anti Lesbian Gay Bisexual or Transgender",
+                    "value": 303
+                },
+                {
+                    "name": "Anti Heterosexual",
+                    "value": 17
+                },
+                {
+                    "name": "Anti Bisexual",
+                    "value": 21
+                }
+            ]
+        },
+        {
+            "name": "Disability bias",
+            "children": [
+                {
+                    "name": "Anti Physical",
+                    "value": 60
+                },
+                {
+                    "name": "Anti Mental",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "Gender bias",
+            "children": [
+                {
+                    "name": "Anti Male",
+                    "value": 22
+                },
+                {
+                    "name": "Anti Female",
+                    "value": 25
+                },
+                {
+                    "name": "Anti Transgender",
+                    "value": 142
+                },
+                {
+                    "name": "Anti Non Conforming",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "Multiple bias",
+            "value": 84
+        }
+    ]
+}

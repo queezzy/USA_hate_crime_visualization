@@ -4,8 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <script src="node_modules/d3/dist/d3.min.js"></script>
     <script src="node_modules/d3-geo/dist/d3-geo.min.js"></script>
+    <script src="node_modules/d3-transition/dist/d3-transition.min.js"></script>
+    <script src="node_modules/d3-selection/dist/d3-selection.min.js"></script>
     <script src= "https://d3js.org/d3-selection.v1.min.js"> </script>
     <script src="node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.min.js"></script>
 
@@ -164,8 +167,15 @@
                   
                   
                 </div>
-                <div class="row justify-content-center mt-3">
-                  <h3 class="">SVG GRAPH HERE</h3>
+                <div class="row mt-3">
+                    
+                </div>
+                <div class="row svg">
+
+                  <svg id="treemap">
+
+                  </svg>
+                    
                 </div>
 
               </div>
@@ -240,6 +250,10 @@
                 </div>
                 <div class="row svg">
 
+                  <svg id="racing_bar_chart" width=600 height=600>
+
+                  </svg>
+                    
                 </div>
                   
 
@@ -355,5 +369,7 @@
     <!-- I insert my own scripts here -->
     <script src="dist/js/visualisation_main.js"> </script>
     <script src="dist/js/hate_crime_map.js"></script>
+    <script src="dist/js/treemap.js"></script>
+    <!--script src="dist/js/racing_bar_chart.js"></script-->
      </body>
 </html>
