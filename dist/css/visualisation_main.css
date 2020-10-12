@@ -30,50 +30,17 @@ hr {
     height: 1em; 
 }
 
-/*
-#racing_bar_chart text{
-    font-size: 16px;
-    font-family: Open Sans, sans-serif;
-  }
-  #racing_bar_chart text.title{
-    font-size: 24px;
-    font-weight: 500;
-  }
-  #racing_bar_chart text.subTitle{
-      font-weight: 500;
-      fill: #777777;
-    }
-    #racing_bar_chart text.caption{
-      font-weight: 400;
-      font-size: 14px;
-      fill: #777777;
-    }
-    #racing_bar_chart text.label{
-      font-weight: 600;
-    }
-  
-    #racing_bar_chart text.valueLabel{
-     font-weight: 300;
-    }
-  
-    #racing_bar_chart text.yearText{
-      font-size: 64px;
-      font-weight: 700;
-      opacity: 0.25;
-    }
-    #racing_bar_chart .tick text {
-      fill: #777777;
-    }
-    #racing_bar_chart .xAxis .tick:nth-child(2) text {
-      text-anchor: start;
-    }
-    #racing_bar_chart .tick line {
-      shape-rendering: CrispEdges;
-      stroke: #dddddd;
-    }
-    #racing_bar_chart .tick line.origin{
-      stroke: #aaaaaa;
-    }
-    #racing_bar_chart path.domain{
-      display: none;
-    }*/
+.Race {
+  fill: rgb(158, 15, 00);
+}
+
+.Sexual_Orientation {
+  fill: rgb(244, 203, 201);
+}
+
+.Religion{
+  fill: rgb(223,99,93) ;
+}
+.Other{
+  fill:rgb(240,222,192)
+}
