@@ -73,7 +73,6 @@ function build_bars(year_to_filter){
               .attr("height", y_bar_chart.bandwidth())
               .attr("class",function(d){return "bar_barchart "+ d.category.replace(/\s+/g, '_')})
 
-
 }
 
 

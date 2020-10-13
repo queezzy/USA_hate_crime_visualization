@@ -110,7 +110,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <input class="custom-checkbox" type="checkbox" id="checkbox1">
-                <label class="tab-label text-white mb-0" for="checkbox1"> Crime snapshot in 2018 </label>
+                <label class="tab-label text-white mb-0" for="checkbox1"> Etat des lieux sur les motivations de crime haineux </label>
               </button>
             </h2>
           </div>
@@ -124,11 +124,17 @@
 
                     <h4 class="text-bold">Description</h4>
                     <p>
-                      Insérer la desciption du schéma et ce qu'il représente.
-                      Ainsi que les données utilisées. Justifier également le choix 
-                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      Ce graphique est un snapshot de la situation globale en termes de nombre d'incidents
+                      selon les biais de motivation et leur types. <br/>Ainsi, le Treemap a été choisi
+                      afin de visualiser la structure globale des types de bias de motivation (race, religion, 
+                      orientation sexuelle, ...). 
+                      <br/>Il montre par ailleurs la séverité des crimes haineux par types de biais (anti white, 
+                      anti black, anti gay, ...). <br/>Cette double dimension permet d'avoir une idée sur les types de biais
+                      les plus prépondérants mais aussi les biais les plus sevères aux Etats-Unis.
+                      <br/> En 2018, les principaux moteurs des crimes haineux etaient entre autre des haines :
+                      <br/>-  contre race : 7 crimes sur 10 
+                      <br/>-  contre orientation sexuelle: 2 crimes sur 10
+                      <br/>-  contre religion : 1 crime sur 10
                     </p>
 
                   </div>
@@ -146,19 +152,19 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Pays (Nominal) </td>
-                            <td>teinte</td>
+                            <td>Nombre d'incidents (Quantitative)</td>
+                            <td>Aire</td>
                             <td>Définit le degré d'incidence de haine</td>
                           </tr>
                           <tr>
-                            <td>Nombre d'incidents (Numérique)</td>
-                            <td>Teinte</td>
-                            <td>Insérer la description appropriée</td>
+                            <td>Type de biais de motivation (Nominale)</td>
+                            <td>Position, Couleur</td>
+                            <td>Distingue les types de biais motivation</td>
                           </tr>
                           <tr>
-                            <td>Type d'incident</td>
-                            <td>Position</td>
-                            <td>Insérer la description appropriée</td>
+                            <td>Biais de Motivation (Nominale)</td>
+                            <td>Position, Couleur</td>
+                            <td>Définit l'appartenance à un certain type de biais de motivatio</td>
                           </tr>
                         </tbody>
                       </table>
@@ -189,7 +195,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <input class="custom-checkbox" type="checkbox" id="checkbox2">
-                <label class="tab-label text-dark mb-0" for="checkbox2">Evolution des incidents haineux par type </label>
+                <label class="tab-label text-dark mb-0" for="checkbox2">Evolution temporelle des incidents haineux par type </label>
               </button>
             </h2>
           </div>
@@ -202,11 +208,13 @@
 
                     <h4 class="text-bold">Description</h4>
                     <p>
-                      Insérer la desciption du schéma et ce qu'il représente.
-                      Ainsi que les données utilisées. Justifier également le choix 
-                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      Le graphique représente le changement de nombres d'incidents au cours du temps par
+                      type de biais de motivation.<br/>Ainsi 
+                      afin d'appréhender cette évolution, on a opté pour un linechart.
+                      <br/>On remarque une constance dans la tendance globale des crimes haineux sur 
+                      la période 2005-2018. toutefois, entre 2009 et 2017 (les mandats présidentielle
+                      de B.Obama), on note une baisse de plus de 20% pour les crimes à motivations anti-raciales, 
+                      avant qu'ils atteignent le pick à partir de 2017 (Le mandat de D.Trump)
                     </p>
 
                   </div>
@@ -224,19 +232,14 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Pays (Nominal) </td>
-                            <td>teinte</td>
-                            <td>Définit le degré d'incidence de haine</td>
+                            <td>Temps et Nombre d'incidents (Quantitative)</td>
+                            <td>Position, Forme</td>
+                            <td>Définit les points et la forme (ligne) afin de visualiser l'évolution </td>
                           </tr>
                           <tr>
-                            <td>Nombre d'incidents (Numérique)</td>
-                            <td>Teinte</td>
-                            <td>Insérer la description appropriée</td>
-                          </tr>
-                          <tr>
-                            <td>Type d'incident</td>
-                            <td>Position</td>
-                            <td>Insérer la description appropriée</td>
+                            <td>Type de biais de motivation (Nominale)</td>
+                            <td>Couleur</td>
+                            <td>Distingue les types de biais motivation</td>
                           </tr>
                         </tbody>
                       </table>
@@ -268,7 +271,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <input class="custom-checkbox" type="checkbox" id="checkbox3">
-                <label class="tab-label text-white mb-0" for="checkbox3">Répartition géographique des incidents haineux au fil du temps</label>
+                <label class="tab-label text-white mb-0" for="checkbox3">Répartition géographique des incidents haineux en fonction du temps et du type d'incident</label>
               </button>
             </h2>
           </div>
@@ -282,11 +285,17 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p>
-                      Insérer la desciption du schéma et ce qu'il représente.
-                      Ainsi que les données utilisées. Justifier également le choix 
-                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      Ce graphique prend en compte la position géographique des étas où les incidents 
+                      de crimes haineux ont eu lieu, ainsi que le paramètre du temps, Le graphique permet
+                      aussi de visualiser les nombre d'incidents soit total soit d'un type de biais de motivation
+                      bien défini
+                      <br/>En changeant les modalité, on remarque que les états de Califormia, New york, Michigan et Texas 
+                      sont les foyers des incidents de crimes haineux. L'Etat de California enregistre les nombre d'incidents 
+                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
+                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
+                      type anti-religion.
+                 
+                      
                     </p>
 
                   </div>
@@ -304,19 +313,14 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Pays (Nominal) </td>
-                            <td>teinte</td>
+                            <td>Nombre d'incidents</td>
+                            <td>Couleur/teinte/Saturation</td>
                             <td>Définit le degré d'incidence de haine</td>
                           </tr>
                           <tr>
-                            <td>Nombre d'incidents (Numérique)</td>
-                            <td>Teinte</td>
-                            <td>Insérer la description appropriée</td>
-                          </tr>
-                          <tr>
-                            <td>Type d'incident</td>
-                            <td>Position</td>
-                            <td>Insérer la description appropriée</td>
+                            <td>Etats des Etats-Unis</td>
+                            <td>Position, Forme</td>
+                            <td>Définit la position la forme des Etats des Etats-Unis</td>
                           </tr>
                         </tbody>
                       </table>
@@ -363,7 +367,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <input class="custom-checkbox" type="checkbox" id="checkbox3">
-                <label class="tab-label text-dark mb-0" for="checkbox3">Répartition géographique des incidents haineux au fil du temps</label>
+                <label class="tab-label text-dark mb-0" for="checkbox3">Segmentation quantitative des types d'incidents haineux au fil du temps</label>
               </button>
             </h2>
           </div>
@@ -377,11 +381,17 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p>
-                      Insérer la desciption du schéma et ce qu'il représente.
-                      Ainsi que les données utilisées. Justifier également le choix 
-                      de ce type de diagramme. BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
-                      BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLABLABLABLA
+                      Ce graphique prend en compte la position géographique des étas où les incidents 
+                      de crimes haineux ont eu lieu, ainsi que le paramètre du temps, Le graphique permet
+                      aussi de visualiser les nombre d'incidents soit total soit d'un type de biais de motivation
+                      bien défini
+                      <br/>En changeant les modalité, on remarque que les états de Califormia, New york, Michigan et Texas 
+                      sont les foyers des incidents de crimes haineux. L'Etat de California enregistre les nombre d'incidents 
+                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
+                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
+                      type anti-religion.
+                 
+                      
                     </p>
 
                   </div>
@@ -399,19 +409,14 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Pays (Nominal) </td>
-                            <td>teinte</td>
+                            <td>Nombre d'incidents</td>
+                            <td>Couleur/teinte/Saturation</td>
                             <td>Définit le degré d'incidence de haine</td>
                           </tr>
                           <tr>
-                            <td>Nombre d'incidents (Numérique)</td>
-                            <td>Teinte</td>
-                            <td>Insérer la description appropriée</td>
-                          </tr>
-                          <tr>
-                            <td>Type d'incident</td>
-                            <td>Position</td>
-                            <td>Insérer la description appropriée</td>
+                            <td>Etats des Etats-Unis</td>
+                            <td>Position, Forme</td>
+                            <td>Définit la position la forme des Etats des Etats-Unis</td>
                           </tr>
                         </tbody>
                       </table>
