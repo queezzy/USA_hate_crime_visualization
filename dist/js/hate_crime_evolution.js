@@ -12,7 +12,7 @@ d3.csv("/../../dist/dataset/curves_data.csv").then(render_curve)
 function render_curve(data){
 
     
-    var allGroup = ["Race", "Religion", "Sexe", "Autre"]
+    var allGroup = ["Race", "Religion", "Sexe"]
 
     var dataReady = allGroup.map(function(grpName) { 
         return {

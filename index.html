@@ -153,7 +153,7 @@
 
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
-                    <p>
+                    <p style="font-size: small; font-weight: bolder;">
                       Ce graphique est un snapshot en 2018 de la situation globale récente en termes de nombre d'incidents
                       selon les biais de motivation et leur types. Ainsi, le Treemap a été choisi
                       afin de visualiser la structure globale des types et sous-types de bias de motivation (race, religion, 
@@ -226,7 +226,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <input class="custom-checkbox" type="checkbox" id="checkbox2">
-                <label class="tab-label text-dark mb-0" for="checkbox2">Evolution temporelle des incidents haineux par type </label>
+                <label class="tab-label text-dark mb-0" for="checkbox2">Evolution temporelle des incidents haineux par typologie de biais </label>
               </button>
             </h2>
           </div>
@@ -239,14 +239,15 @@
 
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
-                    <p>
-                      Le graphique représente le changement de nombres d'incidents au cours du temps par
-                      type de biais de motivation.<br/>Ainsi 
-                      afin d'appréhender cette évolution, on a opté pour un linechart.
-                      <br/>On remarque une constance dans la tendance globale des crimes haineux sur 
-                      la période 2005-2018. toutefois, entre 2009 et 2017 (les mandats présidentielle
-                      de B.Obama), on note une baisse de plus de 20% pour les crimes à motivations anti-raciales, 
-                      avant qu'ils atteignent le pick à partir de 2017 (Le mandat de D.Trump)
+                    <p style="font-size: small; font-weight: bolder;">
+                      Chaque courbe de ce graphique représente l'évolution au fil des années, d'incidents haineux suivant 
+                      une typlogie principale de biais de motivation. Nous nous sommes restreints aux principaux biais qui ressortent 
+                      du graphe précédent, à savoir : la race, la religion et l'orientation sexuelle. Ainsi 
+                      afin d'appréhender cette évolution, on a opté pour des courbes linéaires évolutives car elles permettent de voir 
+                      rapidement les tendances et de faire une pseudo-analyse rapide.
+                      <br/>On remarque une constance dans la tendance globale des crimes haineux motivés par le biais anti-religieux et de l'orientation sexuelle
+                      sur la période 2005-2012 (Correspondant aux mandats Bush et Obama). Toutefois, entre 2008 et 2014 , on note une baisse de plus de 20% sur les crimes à motivation anti-raciale, 
+                      avant qu'ils n'atteignent le pick à partir de 2017 (Correspondant à la fin de la période Obama au début période Trump)
                     </p>
 
                   </div>
@@ -265,9 +266,9 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Temps et Nombre d'incidents (Quantitative)</td>
-                            <td>Position, Forme</td>
-                            <td>Définit les points et la forme (ligne) afin de visualiser l'évolution </td>
+                            <td>Nombre d'incidents (Quantitative)</td>
+                            <td>Position</td>
+                            <td>Une position élevée sur la hauteur désigne un nombre élevé d'incidents haineux </td>
                           </tr>
                           <tr>
                             <td>Type de biais de motivation (Nominale)</td>
@@ -286,7 +287,7 @@
                 </div>
                 <div class="row svg overflow-auto justify-content-center">
                   
-                <div class="row title_of_chart justify-content-center"><h3 class="">Courbes evolutives: Evolution temporelle des incidents/crimes haineux </h3></div>
+                <div class="row px-5 title_of_chart justify-content-center"><h3 class="">Courbes evolutives: Evolution temporelle des incidents/crimes haineux suivant le biais de motivation</h3></div>
 
                   <svg id="svg_curve_lines" width=800 height=400 viewBox="0 0 800 400">
 
@@ -294,104 +295,6 @@
                     
                 </div>
                   
-
-              </div>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header bg-dark m-0 py-2" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <input class="custom-checkbox" type="checkbox" id="checkbox3">
-                <label class="tab-label text-white mb-0" for="checkbox3">Répartition géographique des incidents haineux en fonction du temps et du type d'incident</label>
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              <div class="container">
-
-                <div class="row">
-                  <div class="col-5">
-
-                    <h4 class="text-bold">Description</h4>
-                    <hr class="text-success"/>
-                    <p>
-                      Ce graphique prend en compte la position géographique des étas où les incidents 
-                      de crimes haineux ont eu lieu, ainsi que le paramètre du temps, Le graphique permet
-                      aussi de visualiser les nombre d'incidents soit total soit d'un type de biais de motivation
-                      bien défini
-                      <br/>En changeant les modalité, on remarque que les états de Califormia, New york, Michigan et Texas 
-                      sont les foyers des incidents de crimes haineux. L'Etat de California enregistre les nombre d'incidents 
-                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
-                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
-                      type anti-religion.
-                 
-                      
-                    </p>
-
-                  </div>
-                  <div class="col col-7 visual-variable-tableau">
-
-                    <h4>Variables visuelles engagées</h4>
-                    <hr class="text-success"/>
-                    <div class="">
-                      <table class="table table-striped">
-                        <thead>
-                          <tr>
-                            <th scope="col">Variable (type de variable)  </th>
-                            <th scope="col">Variable Visuelle</th>
-                            <th scope="col">Description</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Nombre d'incidents</td>
-                            <td>Couleur/teinte/Saturation</td>
-                            <td>Définit le degré d'incidence de haine</td>
-                          </tr>
-                          <tr>
-                            <td>Etats des Etats-Unis</td>
-                            <td>Position, Forme</td>
-                            <td>Définit la position la forme des Etats des Etats-Unis</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  
-                  
-                </div>
-               <div class="row title_of_chart justify-content-center"><h3 class="">Carte graphique: Distribution géographique des incidents/crimes haineux aux USA</h3></div>
-               <div class="row mt-3">
-                    <div class="form-group col-6">
-                      <label for="year_menu" class="row font-weight-bold">Choisir une année à visualiser</label>
-                      <select class="form-control form-control-sm bg-dark text-white font-weight-bold" id="year_menu">
-                        <option value="2006">2006</option>
-                        <option value="2009">2009</option>
-                        <option value="2013">2013</option>
-                        <option value="2018">2018</option>
-                      </select>
-                    </div>
-                    <div class="form-group col-6">
-                      <label for="bias_menu" class="row font-weight-bold">Choisir une variable à visualiser</label>
-                      <select id="bias_menu" class="form-control form-control-sm bg-dark text-white font-weight-bold">
-                        <option value="0" class="font-weight-bold">Total incidents</option>
-                        <option value="1">Incidents by racial bias</option>
-                        <option value="2">Incidents by religious bias</option>
-                        <option value="3">Incidents by sexual orientation bias</option>
-                      </select>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                  <svg id="map" width=800 height=400 viewBox="0 0 800 400" class="svg">
-
-
-                  </svg>
-                </div>
 
               </div>
               
@@ -417,16 +320,14 @@
 
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
-                    <p>
-                      Ce graphique prend en compte la position géographique des étas où les incidents 
-                      de crimes haineux ont eu lieu, ainsi que le paramètre du temps, Le graphique permet
-                      aussi de visualiser les nombre d'incidents soit total soit d'un type de biais de motivation
-                      bien défini
-                      <br/>En changeant les modalité, on remarque que les états de Califormia, New york, Michigan et Texas 
-                      sont les foyers des incidents de crimes haineux. L'Etat de California enregistre les nombre d'incidents 
-                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
-                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
-                      type anti-religion.
+                    <p style="font-size: small; font-weight: bolder;">
+                      Ce graphique permet de représenter les contributions pour chaque biais de motivation,
+                       des modalités qui la constituent. Elle ressort de facon spécifiquement la communauté particulièrement 
+                       ciblé par un incident/crime haineux. Par exemple, pour le biais de motivation racial, une modalité constitutrice est 
+                       le caractère anti-noir (haine envers les noirs), anti-blanc (haine envers un blanc), etc. Nous avons une fois de Plus
+                       regroupés au travers de la couleur, chaque modalité dans le biais qu'il représente. Ainsi des modalités d'une même couleur 
+                       représenteront un même biais de motivation. Une visualisation dépendamment de l'année est possible grâce au choix de l'année.
+                      <br/>Globalement les observations analytiques sont les mêmes que les deux premieres visualisations.
                  
                       
                     </p>
@@ -447,14 +348,14 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Nombre d'incidents</td>
-                            <td>Couleur/teinte/Saturation</td>
-                            <td>Définit le degré d'incidence de haine</td>
+                            <td>Nombre d'incidents (Quantitative)</td>
+                            <td>Taille</td>
+                            <td>Plus la taille du rectangle est élevée, plus grand est le nombre d'incidents haineux subis</td>
                           </tr>
                           <tr>
-                            <td>Etats des Etats-Unis</td>
-                            <td>Position, Forme</td>
-                            <td>Définit la position la forme des Etats des Etats-Unis</td>
+                            <td>Type de biais de motivation</td>
+                            <td>Couleur</td>
+                            <td>Chaque couleur définir un type de biais de motivation</td>
                           </tr>
                         </tbody>
                       </table>
@@ -464,9 +365,9 @@
                   
                 </div>
 
-              <div class="row title_of_chart justify-content-center"><h3 class="">Bar chart : Incidents haineux par sous modalité et evolution temporelle</h3></div>  
+              <div class="row title_of_chart justify-content-center"><h3 class="">Diagramme à bandes hozitontal : Incidents haineux par sous modalité et evolution temporelle</h3></div>  
  
-               <div class="row mt-3 justify-content-center">
+               <div class="row mt-3 justify-content-center overflow-auto">
                     <div class="form-group row justify-content-center">
                       <label for="year_menu_bar_chart" class="row font-weight-bold">Choisir une année à visualiser</label>
                       <select class="form-control form-control-sm bg-dark text-white font-weight-bold" id="year_menu_bar_chart">
@@ -502,6 +403,101 @@
             </div>
           </div>
         </div>
+
+        <div class="card">
+          <div class="card-header bg-dark m-0 py-2" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <input class="custom-checkbox" type="checkbox" id="checkbox3">
+                <label class="tab-label text-white mb-0" for="checkbox3">Répartition géographique des incidents haineux en fonction du temps et du type d'incident</label>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="container">
+
+                <div class="row">
+                  <div class="col-5">
+
+                    <h4 class="text-bold">Description</h4>
+                    <hr class="text-success"/>
+                    <p style="font-size: small; font-weight: bolder;">
+                      Ce graphique permet de représenter géographiquement, dépendamment des Etats, les incidents 
+                      de crimes haineux, en fonction du temps, et d'une métrique particulière.
+                      bien défini
+                      <br/>En changeant les modalités, on remarque que les Etats de Californie, du New Jersey, de New york, du Michigan 
+                      sont les foyers des incidents de crimes haineux. L'Etat de Californie enregistre les nombre d'incidents 
+                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
+                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
+                      type anti-religion. Cependant il est à signaler ici, que l'analyse et la visualisation
+                      ne prend pas en compte la population qui pourrait expliquer certaines différences entre Etats.
+                 
+                    </p>
+
+                  </div>
+                  <div class="col col-7 visual-variable-tableau">
+
+                    <h4>Variables visuelles engagées</h4>
+                    <hr class="text-success"/>
+                    <div class="">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Variable (type de variable)  </th>
+                            <th scope="col">Variable Visuelle</th>
+                            <th scope="col">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Nombre d'incidents (Quantitative) </td>
+                            <td>Teinte</td>
+                            <td>Plus la teinte est foncée plus des incidents à caractère haineux y sont commis.</td>
+                          </tr>
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+               <div class="row title_of_chart justify-content-center"><h3 class="">Carte graphique: Distribution géographique des incidents/crimes haineux aux USA</h3></div>
+               <div class="row mt-3">
+                    <div class="form-group col-6">
+                      <label for="year_menu" class="row font-weight-bold">Choisir une année à visualiser</label>
+                      <select class="form-control form-control-sm bg-dark text-white font-weight-bold" id="year_menu">
+                        <option value="2006">2006</option>
+                        <option value="2009">2009</option>
+                        <option value="2013">2013</option>
+                        <option selected value="2018">2018</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="bias_menu" class="row font-weight-bold">Choisir une variable à visualiser</label>
+                      <select id="bias_menu" class="form-control form-control-sm bg-dark text-white font-weight-bold">
+                        <option selected value="0" class="font-weight-bold">Nombre total d'incidents</option>
+                        <option value="1">Incident en fonction du biais racial</option>
+                        <option value="2">Incident en fonction du biais religieux</option>
+                        <option value="3">Incident en fonction du biais lié à l'orientation sexuelle</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                  <svg id="map" width=800 height=400 viewBox="0 0 800 400" class="svg">
+
+
+                  </svg>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   </br> </br> </br> </br>
