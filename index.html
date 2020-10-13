@@ -62,7 +62,26 @@
         </div>
       </div>
       <div class="container mb-3">
+
         <div class="row">
+          <div class="card  col-4 px-0">
+            <div class="card-header text-white bg-dark">METHODOLOGIE</div>
+            <div class="card-body text-black">
+              <!--h5 class="card-title">Secondary card title</h5-->
+              <p class="card-text">
+                Chaque année les agences fédérales américaines repertorient les incidents/crimes, jugés après investigation, comme motivés 
+                par l'appartenance de la victime à une communauté sociale bien définie.
+                <br/>
+                Partant de ce cadre global, nous nous sommes spécifiquement intéressés à visualiser avec une perspective analytique, qui sont les principales 
+                victimes ou cibles de ces agissements à caractère haineux et motivés par ce qu'on a appelé de biais caractéristique. On a ainsi procédé à une analyse statique afin d'avoir le
+                poul de la situation récente (2018 étant la date la plus récente de notre échantillon), s'en suit des analyses temporelle et géographique suivant la typologie de ces incidents 
+                dits haineux aux Etats-Unis d' Amérique. 
+                <div class="row my-2 justify-content-center"  style="position: absolute; bottom: 0; width: 100%;" >
+                  <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime#FAQs" class="btn btn-primary" target="_blank">En savoir plus</a>
+                </div>
+            </div>
+          </div>
+
           <div class="card  col-4 px-0">
               <div class="card-header text-white bg-dark">DATASET</div>
               <div class="card-body text-black">
@@ -71,31 +90,20 @@
                   Le programme Uniform Crime Reporting (UCR) compile les données officielles sur la criminalité aux États-Unis et publiées
                    par le "Federal Bureau of Investigation" (FBI).
 
-                  <br/>Conçu en 1929 par l’Association internationale des chefs de police pour répondre au besoin de statistiques uniformes fiables 
+                  <br/>Conçu en 1929 par l’association internationale des chefs de police pour répondre au besoin de statistiques uniformes fiables 
                   sur la criminalité de la nation. Depuis 1930, le FBI a été chargé de recueillir, publier et archiver ces statistiques.
 
-                  <br/>Au fil des ans, ces données sont devenues l’un des principaux indicateurs sociaux du pays. Les principaux utilisateurs de ces 
-                  statistiques sont les cadres de l’appareil judiciaire, les étudiants en justice pénale, les chercheurs, les membres 
-                  des médias et le grand public à la recherche d’information sur la criminalité aux Etats-Unis. </p>
-                <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime" class="btn btn-primary">Trouver la Dataset</a>
+                </br>Au fil des ans, ces données sont devenues l’un des principaux indicateurs sociaux du pays. Nous avons principalement exploité
+                  les statistiques liées aux victimes d'incidents haineux entre 2005 et 2018. Toutes ces données n'étant pas toutes sous un format
+                directement exploitable, une phase de pré-traitement a été nécessaire. </p>
+                </br>
+                <div class="row my-2 justify-content-center"  style="position: absolute; bottom: 0; width: 100%;" >
+                  <a href="https://www.fbi.gov/services/cjis/ucr/publications#Hate-Crime%20Statistics" class="btn btn-primary" target="_blank">Plus de détails</a>
+                </div>
               </div>
           </div>
 
-          <div class="card  col-4 px-0">
-            <div class="card-header text-white bg-dark">METHODOLOGIE</div>
-            <div class="card-body text-black">
-              <!--h5 class="card-title">Secondary card title</h5-->
-              <p class="card-text">
-                Chaque année les agences fédérale américaine repertorient les incidents/crimes jugé aprés investigation comme motivés 
-                par l'appartenance de la victime à une communauté sociale bien définie.
-                <br/>
-                Partant de ce cadre globale, nous nous sommes spécifiquement intéressés à analyser cette dynamique afin d'identifier 
-                les groupes sociaux les plus impactés. On a ainsi procédé à une analyse temporelle et géographique des principaux types 
-                de crime de haine aux Etats-Unis.
-                <br/><br/><br/><br/><br/>
-              <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime#FAQs" class="btn btn-primary">Methodologie de Collecte</a>
-            </div>
-          </div>
+          
 
           <div class="card  col-4 px-0">
             <div class="card-header text-white bg-dark">CONCEPTS CLES</div>
@@ -111,8 +119,11 @@
                 raison de son appartenance, réelle ou supposée à un certain groupe social (race, religion, orientation sexuelle, ...)
                 <br/>
                 
-                 </p>
-              <a mb-0 href="#accordionExample" class="btn btn-primary">Aller aux visualisations</a>
+              </p>
+              <div class="row my-2 justify-content-center"  style="position: absolute; bottom: 0; width: 100%;" >
+                <a href="#accordionExample" class="btn btn-primary">Aller aux visualisations</a>
+              </div>
+
             </div>
           </div>
       
@@ -141,12 +152,12 @@
                   <div class="col-5">
 
                     <h4 class="text-bold">Description</h4>
+                    <hr class="text-success"/>
                     <p>
-                      Ce graphique est un snapshot de la situation globale en termes de nombre d'incidents
-                      selon les biais de motivation et leur types. <br/>Ainsi, le Treemap a été choisi
-                      afin de visualiser la structure globale des types de bias de motivation (race, religion, 
-                      orientation sexuelle, ...). 
-                      <br/>Il montre par ailleurs la séverité des crimes haineux par types de biais (anti white, 
+                      Ce graphique est un snapshot en 2018 de la situation globale récente en termes de nombre d'incidents
+                      selon les biais de motivation et leur types. Ainsi, le Treemap a été choisi
+                      afin de visualiser la structure globale des types et sous-types de bias de motivation (race, religion, 
+                      orientation sexuelle, ...) d'un crime haineux. Il montre par ailleurs la séverité des crimes haineux par types de biais (anti white, 
                       anti black, anti gay, ...). <br/>Cette double dimension permet d'avoir une idée sur les types de biais
                       les plus prépondérants mais aussi les biais les plus sevères aux Etats-Unis.
                       <br/> En 2018, les principaux moteurs des crimes haineux etaient entre autre des haines :
@@ -159,6 +170,7 @@
                   <div class="col col-7 visual-variable-tableau">
 
                     <h4>Variables visuelles engagées</h4>
+                    <hr class="text-success"/>
                     <div class="">
                       <table class="table table-striped">
                         <thead>
@@ -172,7 +184,7 @@
                           <tr>
                             <td>Nombre d'incidents (Quantitative)</td>
                             <td>Aire</td>
-                            <td>Définit le degré d'incidence de haine</td>
+                            <td>Définit la proportion d'un incident par rapport au total</td>
                           </tr>
                           <tr>
                             <td>Type de biais de motivation (Nominale)</td>
@@ -180,9 +192,9 @@
                             <td>Distingue les types de biais motivation</td>
                           </tr>
                           <tr>
-                            <td>Biais de Motivation (Nominale)</td>
-                            <td>Position, Couleur</td>
-                            <td>Définit l'appartenance à un certain type de biais de motivatio</td>
+                            <td>Nombre d'incidents haineux (Quantitative)</td>
+                            <td>Saturation</td>
+                            <td>Définit la domination d'un sous-type d'incident au sein de son groupe</td>
                           </tr>
                         </tbody>
                       </table>
@@ -196,7 +208,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                  <div class="row title_of_chart"><h3 class="">Treemap : Proportion des incidents haineux par type</h3></div>  
+                  <div class="row title_of_chart"><h3 class="">Treemap : Proportion en 2018 des incidents haineux par type de biais de motivation</h3></div>  
                   <svg id="treemap" width=900 height=600 viewBox="0 0 900 600">
 
                   </svg>
@@ -226,6 +238,7 @@
                   <div class="col-5">
 
                     <h4 class="text-bold">Description</h4>
+                    <hr class="text-success"/>
                     <p>
                       Le graphique représente le changement de nombres d'incidents au cours du temps par
                       type de biais de motivation.<br/>Ainsi 
@@ -240,6 +253,7 @@
                   <div class="col col-7 visual-variable-tableau">
 
                     <h4>Variables visuelles engagées</h4>
+                    <hr class="text-success"/>
                     <div class="">
                       <table class="table table-striped">
                         <thead>
@@ -323,6 +337,7 @@
                   <div class="col col-7 visual-variable-tableau">
 
                     <h4>Variables visuelles engagées</h4>
+                    <hr class="text-success"/>
                     <div class="">
                       <table class="table table-striped">
                         <thead>
@@ -420,6 +435,7 @@
                   <div class="col col-7 visual-variable-tableau">
 
                     <h4>Variables visuelles engagées</h4>
+                    <hr class="text-success"/>
                     <div class="">
                       <table class="table table-striped">
                         <thead>

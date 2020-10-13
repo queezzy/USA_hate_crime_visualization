@@ -73,6 +73,16 @@ function replace_long_terms(text){
                 .replace("Anti Multiple Race Group","A-M.Rac.G")
                 .replace("Anti Multiple Religions Group","A-M.Rel.G")
                 .replace("Anti Lesbian Gay Bisexual or Transgender","A-L.G.B.T")
+                .replace("Anti Physical","A-P")
+                .replace("Anti Male","A-M")
+                .replace("Anti Female","A-F")
+                .replace("Anti Heterosexual","A-Het.")
+                .replace("Anti Bisexual","A-Bi")
+                .replace("Anti Other Religion","A-Oth.Rel.")
+                .replace("Anti Lesbian","A-Lesb.")
+                .replace("Anti Atheism Agnosticism etc","A-Ath")
+                .replace("Anti Non Conforming","A-N.C.")
+                .replace("Multiple bias","")
 }
 
 function showdata(data){
@@ -90,9 +100,9 @@ function showdata(data){
     var color = d3.scaleOrdinal()
                     .domain(["Racial bias", "Religious bias", "Sexual Orientation bias",
                                 "Disability bias","Gender bias","Multiple bias"])
-                    .range([ "#402D54", "#D18975", "#8FD175","#5FA175","#2BD165","#9FA125"])
+                    .range([ "#cc0000", "#e6b800", "#0047b3","#804000","#33331a","#003300"])
 
-    var opacity = d3.scaleLinear().domain([0, 2000]).range([.5,1])
+    var opacity = d3.scaleLinear().domain([0, 2000]).range([.4,0.9])
 
     svg_tree.selectAll("rect")
             .data(root.leaves())

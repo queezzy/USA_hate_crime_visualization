@@ -132,7 +132,12 @@
         },
         {
             "name": "Multiple bias",
-            "value": 84
+            "children": [
+                {
+                    "name": "Multiple bias",
+                    "value": 84
+                }
+            ]
         }
     ]
 }
