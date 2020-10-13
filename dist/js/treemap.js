@@ -1,13 +1,13 @@
-var margin_tree = {top: 10, right: 60, bottom: 10, left: 10},
-      width_tree = 900 - margin_tree.left - margin_tree.right,
-      height_tree = 700 - margin_tree.top - margin_tree.bottom;
-
-
+var margin_tree = {top: 10, right: 60, bottom: 10, left: 10}
 var svg_tree = d3.select("#treemap")
-    .attr("width", width_tree + margin_tree.left + margin_tree.right)
-    .attr("height", height_tree + margin_tree.top + margin_tree.bottom)
-    .append("g")
-    .attr("transform","translate(" + margin_tree.left + "," + margin_tree.top + ")");
+var width_tree = +svg_tree.attr("width") - margin_tree.left - margin_tree.right;
+var height_tree = +svg_tree.attr("height") - margin_tree.top - margin_tree.bottom;
+
+
+svg_tree.attr("width", width_tree + margin_tree.left + margin_tree.right)
+        .attr("height", height_tree + margin_tree.top + margin_tree.bottom)
+        .append("g")
+        .attr("transform","translate(" + margin_tree.left + "," + margin_tree.top + ")");
 
 var tooltip_tree;
 
@@ -138,12 +138,6 @@ function showdata(data){
             .attr("font-size", "19px")
             .attr("fill",  function(d){ return color(d.data.name)} )
         
-    svg_tree.append("text")
-            .attr("x", 0)
-            .attr("y", 14) 
-            .text("Snapshot of 2018 USA Incidents/Crime motivational bias")
-            .attr("font-size", "19px")
-            .attr("fill",  "grey" )
 
     tooltip_tree = addTooltip_tree()
     root.leaves().forEach(function(d,i) {

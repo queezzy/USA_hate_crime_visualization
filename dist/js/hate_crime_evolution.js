@@ -1,12 +1,11 @@
-var margin_curv_viz = {top: 10, right: 100, bottom: 30, left: 50},
-    width_curv_viz = 1000 - margin_curv_viz.left - margin_curv_viz.right,
-    height_curv_viz = 800 - margin_curv_viz.top - margin_curv_viz.bottom;
-
 var svg_curve = d3.select("#svg_curve_lines")
-                    .attr("width", width_curv_viz + margin_curv_viz.left + margin_curv_viz.right)
-                    .attr("height", height_curv_viz + margin_curv_viz.top + margin_curv_viz.bottom)
-                    .append("g")
-                    .attr("transform","translate(" + margin_curv_viz.left + "," + margin_curv_viz.top + ")");
+var margin_curv_viz = {top: 10, right: 100, bottom: 30, left: 50},
+    width_curv_viz = +svg_curve.attr("width") - margin_curv_viz.left - margin_curv_viz.right
+    height_curv_viz = +svg_curve.attr("height") - margin_curv_viz.top - margin_curv_viz.bottom ;
+svg_curve.attr("width", width_curv_viz + margin_curv_viz.left + margin_curv_viz.right+100)
+          .attr("height", height_curv_viz + margin_curv_viz.top + margin_curv_viz.bottom)
+          .append("g")
+          .attr("transform","translate(" + margin_curv_viz.left + "," + margin_curv_viz.top + ")");
 
 d3.csv("/../../dist/dataset/curves_data.csv").then(render_curve)
 
@@ -32,15 +31,16 @@ function render_curve(data){
     // Add X axis --> it is a date format
     var x_line_curve = d3.scaleLinear()
                          .domain([2005,2018])
-                         .range([ 0, width ]);
+                         .range([ 0, width_curv_viz ]);
+                        
     svg_curve.append("g")
-             .attr("transform", "translate(0," + height + ")")
-             .call(d3.axisBottom(x_line_curve));
+             .attr("transform", "translate(0," + height_curv_viz + ")")
+             .call(d3.axisBottom(x_line_curve).tickFormat(d3.format(".0f")));
 
     // Add Y axis
     var y_line_curve = d3.scaleLinear()
-                         .domain( [30,8000])
-                         .range([ height, 0 ]);
+                         .domain( [30,6000])
+                         .range([ height_curv_viz, 0 ]);
     svg_curve.append("g")
              .call(d3.axisLeft(y_line_curve));
 
@@ -82,10 +82,11 @@ function render_curve(data){
       .data(dataReady)
       .enter()
         .append('g')
+        .attr('class','legend_curve_text')
         .append("text")
           .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; }) // keep only the last value of each time series
           .attr("transform", function(d) { return "translate(" + x_line_curve(d.value.time) + "," + y_line_curve(d.value.value) + ")"; }) // Put the text at the position of the last point
-          .attr("x", 12) // shift the text a bit more right
+          .attr("x", 20) // shift the text a bit more right
           .text(function(d) { return d.name; })
           .style("fill", function(d){ return color_scale_line_curve(d.name) })
           .style("font-size", 15)

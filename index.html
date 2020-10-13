@@ -14,8 +14,9 @@
 
     <!-- Bootstrap CSS -->
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"-->
+    
+    <link rel="stylesheet" type = "text/css" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" type = "text/css" href="dist/css/visualisation_main.css">
-    <link rel="stylesheet" type = "text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>USA's Hate Crime Visualisation | TP Visualisation de l'information</title>
   </head>
   <body>
@@ -64,38 +65,55 @@
         <div class="row">
           <div class="card  col-4 px-0">
               <div class="card-header text-white bg-dark">DATASET</div>
-                <div class="card-body text-black">
-                  <!--h5 class="card-title">Secondary card title</h5-->
-                  <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
-                    entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
-                    Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
-                    (Race, Religion, Genre, Orientation sexuelle, ...). </p>
-                  <a href="#" class="btn btn-primary">Find our dataset</a>
-                </div>
-          </div>
-
-          <div class="card  col-4 px-0">
-            <div class="card-header text-white bg-dark">METHODOLOGY</div>
               <div class="card-body text-black">
                 <!--h5 class="card-title">Secondary card title</h5-->
-                <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
-                  entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
-                  Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
-                  (Race, Religion, Genre, Orientation sexuelle, ...). </p>
-                <a href="#" class="btn btn-primary">Find our dataset</a>
+                <p class="card-text">
+                  Le programme Uniform Crime Reporting (UCR) compile les données officielles sur la criminalité aux États-Unis et publiées
+                   par le "Federal Bureau of Investigation" (FBI).
+
+                  <br/>Conçu en 1929 par l’Association internationale des chefs de police pour répondre au besoin de statistiques uniformes fiables 
+                  sur la criminalité de la nation. Depuis 1930, le FBI a été chargé de recueillir, publier et archiver ces statistiques.
+
+                  <br/>Au fil des ans, ces données sont devenues l’un des principaux indicateurs sociaux du pays. Les principaux utilisateurs de ces 
+                  statistiques sont les cadres de l’appareil judiciaire, les étudiants en justice pénale, les chercheurs, les membres 
+                  des médias et le grand public à la recherche d’information sur la criminalité aux Etats-Unis. </p>
+                <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime" class="btn btn-primary">Trouver la Dataset</a>
               </div>
           </div>
 
           <div class="card  col-4 px-0">
-            <div class="card-header text-white bg-dark">KEY CONCEPTS</div>
-              <div class="card-body text-black">
-                <!--h5 class="card-title">Secondary card title</h5-->
-                <p class="card-text">Le but de ce projet est de mettre en avant des visualisations permettant d'illustrer,
-                  entre autres la pénétration et l'évolution au fil du temps des crimes et incidents haineux aux Etats Unis d'Amérique.
-                  Ces incidents haineux sont des incidents principalement motivés par le biais d'appartenance à une communauté particulière
-                  (Race, Religion, Genre, Orientation sexuelle, ...). </p>
-                <a href="#" class="btn btn-primary">Go to the visualisation</a>
-              </div>
+            <div class="card-header text-white bg-dark">METHODOLOGIE</div>
+            <div class="card-body text-black">
+              <!--h5 class="card-title">Secondary card title</h5-->
+              <p class="card-text">
+                Chaque année les agences fédérale américaine repertorient les incidents/crimes jugé aprés investigation comme motivés 
+                par l'appartenance de la victime à une communauté sociale bien définie.
+                <br/>
+                Partant de ce cadre globale, nous nous sommes spécifiquement intéressés à analyser cette dynamique afin d'identifier 
+                les groupes sociaux les plus impactés. On a ainsi procédé à une analyse temporelle et géographique des principaux types 
+                de crime de haine aux Etats-Unis.
+                <br/><br/><br/><br/><br/>
+              <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime#FAQs" class="btn btn-primary">Methodologie de Collecte</a>
+            </div>
+          </div>
+
+          <div class="card  col-4 px-0">
+            <div class="card-header text-white bg-dark">CONCEPTS CLES</div>
+            <div class="card-body text-black">
+              <!--h5 class="card-title">Secondary card title</h5-->
+              <p class="card-text">
+                <b>- Biais de motivation:</b> Opinions négatives préconçues, des hypothèses stéréotypées, 
+                de l'intolérance ou de la haine dirigées contre un groupe particulier qui partage une caractéristique commune, telle que la race, 
+                l'ethnie, la langue, la religion, la nationalité, l'orientation sexuelle, le sexe ou toute autre caractéristique fondamentale. 
+                Les personnes handicapées peuvent également être victimes de crimes haineux.
+                <br/><br/>
+                <b>-Crimes de haine(haineux):</b> tout type de délit, offense et crime (Intimidation, aggression, viol, ...) commis contre une victime en
+                raison de son appartenance, réelle ou supposée à un certain groupe social (race, religion, orientation sexuelle, ...)
+                <br/>
+                
+                 </p>
+              <a mb-0 href="#accordionExample" class="btn btn-primary">Aller aux visualisations</a>
+            </div>
           </div>
       
         </div>
@@ -176,9 +194,10 @@
                 <div class="row mt-3">
                     
                 </div>
-                <div class="row svg">
 
-                  <svg id="treemap">
+                <div class="row justify-content-center">
+                  <div class="row title_of_chart"><h3 class="">Treemap : Proportion des incidents haineux par type</h3></div>  
+                  <svg id="treemap" width=900 height=600 viewBox="0 0 900 600">
 
                   </svg>
                     
@@ -251,9 +270,11 @@
                 <div class="row mt-3">
                     
                 </div>
-                <div class="row svg">
+                <div class="row svg overflow-auto justify-content-center">
+                  
+                <div class="row title_of_chart justify-content-center"><h3 class="">Courbes evolutives: Evolution temporelle des incidents/crimes haineux </h3></div>
 
-                  <svg id="svg_curve_lines">
+                  <svg id="svg_curve_lines" width=800 height=400 viewBox="0 0 800 400">
 
                   </svg>
                     
@@ -329,6 +350,7 @@
                   
                   
                 </div>
+               <div class="row title_of_chart justify-content-center"><h3 class="">Carte graphique: Distribution géographique des incidents/crimes haineux aux USA</h3></div>
                <div class="row mt-3">
                     <div class="form-group col-6">
                       <label for="year_menu" class="row font-weight-bold">Choisir une année à visualiser</label>
@@ -350,7 +372,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                  <svg id="map" width="800" height=500 class="svg">
+                  <svg id="map" width=800 height=400 viewBox="0 0 800 400" class="svg">
 
 
                   </svg>
@@ -366,8 +388,8 @@
           <div class="card-header bg-light m-0 py-2" id="headingFour">
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                <input class="custom-checkbox" type="checkbox" id="checkbox3">
-                <label class="tab-label text-dark mb-0" for="checkbox3">Segmentation quantitative des types d'incidents haineux au fil du temps</label>
+                <input class="custom-checkbox" type="checkbox" id="checkbox4">
+                <label class="tab-label text-dark mb-0" for="checkbox4">Segmentation quantitative des types d'incidents haineux au fil du temps</label>
               </button>
             </h2>
           </div>
@@ -425,24 +447,35 @@
                   
                   
                 </div>
-               <div class="row mt-3">
-                    <div class="form-group col-12">
+
+              <div class="row title_of_chart justify-content-center"><h3 class="">Bar chart : Incidents haineux par sous modalité et evolution temporelle</h3></div>  
+ 
+               <div class="row mt-3 justify-content-center">
+                    <div class="form-group row justify-content-center">
                       <label for="year_menu_bar_chart" class="row font-weight-bold">Choisir une année à visualiser</label>
                       <select class="form-control form-control-sm bg-dark text-white font-weight-bold" id="year_menu_bar_chart">
+                        
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
                         <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
                         <option value="2013">2013</option>
                         <option value="2014">2014</option>
                         <option value="2015">2015</option>
                         <option value="2016">2016</option>
                         <option value="2017">2017</option>
-                        <option value="2018">2018</option>
+                        <option selected value="2018">2018</option>
 
                       </select>
                     </div>
                   
                 </div>
                 <div class="row justify-content-center">
-                  <svg id="bar_chart" width="800" height=500 class="svg">
+                  <svg id="bar_chart" width=800 height=500 viewBox="0 0 800 500" class="svg">
 
 
                   </svg>

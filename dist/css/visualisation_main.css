@@ -27,7 +27,10 @@ input:checked + .tab-label::after {
 }
 hr { 
     background-color: rgb(36, 36, 143); 
-    height: 1em; 
+    height: 2px; 
+}
+.legend_curve_text{
+  margin-bottom: 10px;
 }
 
 .Race {
@@ -41,6 +44,16 @@ hr {
 .Religion{
   fill: rgb(223,99,93) ;
 }
-.Other{
-  fill:rgb(240,222,192)
+.Autre{
+  fill:gray;
+}
+
+.svg{
+  overflow: scroll;
+}
+
+.title_of_chart{
+  color: dimgray;
+  font-style: italic;
+  font-weight: bold;
 }

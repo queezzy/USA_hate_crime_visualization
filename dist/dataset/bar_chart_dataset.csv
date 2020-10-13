@@ -1,190 +1,379 @@
 ﻿date,name,category,value
-2018,Anti white,Race,762
-2018,Anti Black,Race,1943
-2018,Anti American Indian Alaska Native,Race,194
-2018,Anti Asian,Race,148
-2018,Anti Hawaiian Pacific Islander,Race,20
-2018,Anti Multiple,Race,137
-2018,Anti Hispanic,Race,485
-2018,Anti Other Ethnicity,Race,276
-2018,Anti Jewish,Religion,835
-2018,Anti Catholic,Religion,53
-2018,Anti Protestant,Religion,34
-2018,Anti Islamic,Religion,188
-2018,Anti Other Religion,Religion,91
-2018,Anti Multiple Religions Group,Religion,46
-2018,Anti Atheism Agnosticism,Religion,6
-2018,Anti Gay,Sexual Orientation,726
-2018,Anti Lesbian,Sexual Orientation,129
-2018,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,303
-2018,Anti Heterosexual,Sexual Orientation,17
-2018,Anti Bisexual,Sexual Orientation,21
-2018,Anti Physical,Disability,60
-2018,Anti Mental,Disability,99
-2018,Anti Male,Gender,22
-2018,Anti Female,Gender,25
-2018,Anti Transgender,Gender,142
-2018,Anti non conforming,Gender,26
-2018,Multiple Bias Incidents,Multiple Bias Incidents,84
-2017,Anti white,Race,741
-2017,Anti Black,Race,2013
-2017,Anti American Indian Alaska Native,Race,251
-2017,Anti Asian,Race,131
-2017,Anti Hawaiian Pacific Islander,Race,16
-2017,Anti Multiple,Race,180
-2017,Anti Hispanic,Race,427
-2017,Anti Other Ethnicity,Race,270
-2017,Anti Jewish,Religion,938
-2017,Anti Catholic,Religion,73
-2017,Anti Protestant,Religion,40
-2017,Anti Islamic,Religion,273
-2017,Anti Other Religion,Religion,76
-2017,Anti Multiple Religions Group,Religion,47
-2017,Anti Atheism Agnosticism,Religion,6
-2017,Anti Gay,Sexual Orientation,679
-2017,Anti Lesbian,Sexual Orientation,126
-2017,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,268
-2017,Anti Heterosexual,Sexual Orientation,32
-2017,Anti Bisexual,Sexual Orientation,25
-2017,Anti Physical,Disability,32
-2017,Anti Mental,Disability,84
-2017,Anti Male,Gender,22
-2017,Anti Female,Gender,24
-2017,Anti Transgender,Gender,106
-2017,Anti non conforming,Gender,13
-2017,Multiple Bias Incidents,Multiple Bias Incidents,69
-2016,Anti white,Race,720
-2016,Anti Black,Race,1739
-2016,Anti American Indian Alaska Native,Race,154
-2016,Anti Asian,Race,113
-2016,Anti Hawaiian Pacific Islander,Race,9
-2016,Anti Multiple,Race,136
-2016,Anti Hispanic,Race,344
-2016,Anti Other Ethnicity,Race,223
-2016,Anti Jewish,Religion,684
-2016,Anti Catholic,Religion,62
-2016,Anti Protestant,Religion,15
-2016,Anti Islamic,Religion,307
-2016,Anti Other Religion,Religion,74
-2016,Anti Multiple Religions Group,Religion,34
-2016,Anti Atheism Agnosticism,Religion,6
-2016,Anti Gay,Sexual Orientation,675
-2016,Anti Lesbian,Sexual Orientation,124
-2016,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,234
-2016,Anti Heterosexual,Sexual Orientation,20
-2016,Anti Bisexual,Sexual Orientation,23
-2016,Anti Physical,Disability,26
-2016,Anti Mental,Disability,44
-2016,Anti Male,Gender,7
-2016,Anti Female,Gender,24
-2016,Anti Transgender,Gender,105
-2016,Anti non conforming,Gender,19
-2016,Multiple Bias Incidents,Multiple Bias Incidents,58
-2015,Anti white,Race,613
-2015,Anti Black,Race,1745
-2015,Anti American Indian Alaska Native,Race,131
-2015,Anti Asian,Race,111
-2015,Anti Hawaiian Pacific Islander,Race,4
-2015,Anti Multiple,Race,113
-2015,Anti Hispanic,Race,299
-2015,Anti Other Ethnicity,Race,257
-2015,Anti Jewish,Religion,664
-2015,Anti Catholic,Religion,53
-2015,Anti Protestant,Religion,37
-2015,Anti Islamic,Religion,257
-2015,Anti Other Religion,Religion,96
-2015,Anti Multiple Religions Group,Religion,51
-2015,Anti Atheism Agnosticism,Religion,2
-2015,Anti Gay,Sexual Orientation,664
-2015,Anti Lesbian,Sexual Orientation,136
-2015,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,203
-2015,Anti Heterosexual,Sexual Orientation,19
-2015,Anti Bisexual,Sexual Orientation,31
-2015,Anti Physical,Disability,43
-2015,Anti Mental,Disability,31
-2015,Anti Male,Gender,7
-2015,Anti Female,Gender,16
-2015,Anti Transgender,Gender,73
-2015,Anti non conforming,Gender,41
-2015,Multiple Bias Incidents,Multiple Bias Incidents,32
-2014,Anti white,Race,593
-2014,Anti Black,Race,1621
-2014,Anti American Indian Alaska Native,Race,130
-2014,Anti Asian,Race,140
-2014,Anti Hawaiian Pacific Islander,Race,3
-2014,Anti Multiple,Race,81
-2014,Anti Hispanic,Race,609
-2014,Anti Other Ethnicity,Race,64
-2014,Anti Jewish,Religion,25
-2014,Anti Catholic,Religion,154
-2014,Anti Protestant,Religion,107
-2014,Anti Islamic,Religion,44
-2014,Anti Other Religion,Religion,11
-2014,Anti Multiple Religions Group,Religion,599
-2014,Anti Atheism Agnosticism,Religion,129
-2014,Anti Gay,Sexual Orientation,241
-2014,Anti Lesbian,Sexual Orientation,18
-2014,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,30
-2014,Anti Heterosexual,Sexual Orientation,299
-2014,Anti Bisexual,Sexual Orientation,349
-2014,Anti Physical,Disability,23
-2014,Anti Mental,Disability,61
-2014,Anti Male,Gender,10
-2014,Anti Female,Gender,23
-2014,Anti Transgender,Gender,58
-2014,Anti non conforming,Gender,40
-2014,Multiple Bias Incidents,Multiple Bias Incidents,17
-2013,Anti white,Race,653
-2013,Anti Black,Race,1856
-2013,Anti American Indian Alaska Native,Race,129
-2013,Anti Asian,Race,135
-2013,Anti Hawaiian Pacific Islander,Race,3
-2013,Anti Multiple,Race,95
-2013,Anti Hispanic,Race,331
-2013,Anti Other Ethnicity,Race,324
-2013,Anti Jewish,Religion,625
-2013,Anti Catholic,Religion,70
-2013,Anti Protestant,Religion,35
-2013,Anti Islamic,Religion,135
-2013,Anti Other Religion,Religion,117
-2013,Anti Multiple Religions Group,Religion,42
-2013,Anti Atheism Agnosticism,Religion,7
-2013,Anti Gay,Sexual Orientation,750
-2013,Anti Lesbian,Sexual Orientation,160
-2013,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,277
-2013,Anti Heterosexual,Sexual Orientation,21
-2013,Anti Bisexual,Sexual Orientation,25
-2013,Anti Physical,Disability,22
-2013,Anti Mental,Disability,61
-2013,Anti Male,Gender,5
-2013,Anti Female,Gender,13
-2013,Anti Transgender,Gender,23
-2013,Anti non conforming,Gender,8
-2013,Multiple Bias Incidents,Multiple Bias Incidents,6
-2009,Anti white,Race,545
-2009,Anti Black,Race,2284
-2009,Anti American Indian Alaska Native,Race,65
-2009,Anti Asian,Race,126
-2009,Anti Hawaiian Pacific Islander,Race,
-2009,Anti Multiple,Race,179
-2009,Anti Hispanic,Race,483
-2009,Anti Other Ethnicity,Race,294
-2009,Anti Jewish,Religion,931
-2009,Anti Catholic,Religion,51
-2009,Anti Protestant,Religion,38
-2009,Anti Islamic,Religion,107
-2009,Anti Other Religion,Religion,109
-2009,Anti Multiple Religions Group,Religion,57
-2009,Anti Atheism Agnosticism,Religion,10
-2009,Anti Gay,Sexual Orientation,682
-2009,Anti Lesbian,Sexual Orientation,185
-2009,Anti Lesbian Gay Bisexual or Transgender,Sexual Orientation,312
-2009,Anti Heterosexual,Sexual Orientation,21
-2009,Anti Bisexual,Sexual Orientation,23
-2009,Anti Physical,Disability,25
-2009,Anti Mental,Disability,71
-2009,Anti Male,Gender,
-2009,Anti Female,Gender,
-2009,Anti Transgender,Gender,
-2009,Anti non conforming,Gender,
-2009,Multiple Bias Incidents,Multiple Bias Incidents,6
+2005,Anti_white,Race,828
+2005,Anti_Black,Race,2630
+2005,Anti_American_Indian_Alaska_Native,Race,79
+2005,Anti_Asian,Race,199
+2005,Anti_Hawaiian_Pacific_Islander,Race,0
+2005,Anti_Multiple,Race,183
+2005,Anti_Hispanic,Race,522
+2005,Anti_Other_Ethnicity,Race,422
+2005,Anti_Jewish,Religion,848
+2005,Anti_Catholic,Religion,58
+2005,Anti_Protestant,Religion,57
+2005,Anti_Islamic,Religion,128
+2005,Anti_Other_Religion,Religion,93
+2005,Anti_Multiple_Religions_Group,Religion,39
+2005,Anti_Atheism_Agnosticism,Religion,4
+2005,Anti_Gay,Sexual Orientation,621
+2005,Anti_Lesbian,Sexual Orientation,155
+2005,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,195
+2005,Anti_Heterosexual,Sexual Orientation,21
+2005,Anti_Bisexual,Sexual Orientation,25
+2005,Anti_Physical,Autre,21
+2005,Anti_Mental,Autre,32
+2005,Anti_Male,Autre,0
+2005,Anti_Female,Autre,0
+2005,Anti_Transgender,Autre,0
+2005,Anti_non_conforming,Autre,0
+2005,Multiple_Bias_Incidents,Autre,3
+2006,Anti_white,Race,890
+2006,Anti_Black,Race,2640
+2006,Anti_American_Indian_Alaska_Native,Race,60
+2006,Anti_Asian,Race,181
+2006,Anti_Hawaiian_Pacific_Islander,Race,0
+2006,Anti_Multiple,Race,229
+2006,Anti_Hispanic,Race,576
+2006,Anti_Other_Ethnicity,Race,408
+2006,Anti_Jewish,Religion,967
+2006,Anti_Catholic,Religion,76
+2006,Anti_Protestant,Religion,59
+2006,Anti_Islamic,Religion,156
+2006,Anti_Other_Religion,Religion,124
+2006,Anti_Multiple_Religions_Group,Religion,73
+2006,Anti_Atheism_Agnosticism,Religion,7
+2006,Anti_Gay,Sexual Orientation,747
+2006,Anti_Lesbian,Sexual Orientation,163
+2006,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,238
+2006,Anti_Heterosexual,Sexual Orientation,26
+2006,Anti_Bisexual,Sexual Orientation,21
+2006,Anti_Physical,Autre,17
+2006,Anti_Mental,Autre,62
+2006,Anti_Male,Autre,0
+2006,Anti_Female,Autre,0
+2006,Anti_Transgender,Autre,0
+2006,Anti_non_conforming,Autre,0
+2006,Multiple_Bias_Incidents,Autre,2
+2007,Anti_white,Race,749
+2007,Anti_Black,Race,2658
+2007,Anti_American_Indian_Alaska_Native,Race,61
+2007,Anti_Asian,Race,188
+2007,Anti_Hawaiian_Pacific_Islander,Race,0
+2007,Anti_Multiple,Race,214
+2007,Anti_Hispanic,Race,595
+2007,Anti_Other_Ethnicity,Race,412
+2007,Anti_Jewish,Religion,969
+2007,Anti_Catholic,Religion,61
+2007,Anti_Protestant,Religion,57
+2007,Anti_Islamic,Religion,115
+2007,Anti_Other_Religion,Religion,130
+2007,Anti_Multiple_Religions_Group,Religion,62
+2007,Anti_Atheism_Agnosticism,Religion,6
+2007,Anti_Gay,Sexual Orientation,772
+2007,Anti_Lesbian,Sexual Orientation,145
+2007,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,304
+2007,Anti_Heterosexual,Sexual Orientation,22
+2007,Anti_Bisexual,Sexual Orientation,22
+2007,Anti_Physical,Autre,20
+2007,Anti_Mental,Autre,59
+2007,Anti_Male,Autre,0
+2007,Anti_Female,Autre,0
+2007,Anti_Transgender,Autre,0
+2007,Anti_non_conforming,Autre,0
+2007,Multiple_Bias_Incidents,Autre,3
+2008,Anti_white,Race,716
+2008,Anti_Black,Race,2876
+2008,Anti_American_Indian_Alaska_Native,Race,54
+2008,Anti_Asian,Race,137
+2008,Anti_Hawaiian_Pacific_Islander,Race,0
+2008,Anti_Multiple,Race,209
+2008,Anti_Hispanic,Race,561
+2008,Anti_Other_Ethnicity,Race,333
+2008,Anti_Jewish,Religion,1013
+2008,Anti_Catholic,Religion,75
+2008,Anti_Protestant,Religion,56
+2008,Anti_Islamic,Religion,105
+2008,Anti_Other_Religion,Religion,191
+2008,Anti_Multiple_Religions_Group,Religion,65
+2008,Anti_Atheism_Agnosticism,Religion,14
+2008,Anti_Gay,Sexual Orientation,776
+2008,Anti_Lesbian,Sexual Orientation,154
+2008,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,307
+2008,Anti_Heterosexual,Sexual Orientation,33
+2008,Anti_Bisexual,Sexual Orientation,27
+2008,Anti_Physical,Autre,22
+2008,Anti_Mental,Autre,56
+2008,Anti_Male,Autre,0
+2008,Anti_Female,Autre,0
+2008,Anti_Transgender,Autre,0
+2008,Anti_non_conforming,Autre,0
+2008,Multiple_Bias_Incidents,Autre,3
+2009,Anti_white,Race,545
+2009,Anti_Black,Race,2284
+2009,Anti_American_Indian_Alaska_Native,Race,65
+2009,Anti_Asian,Race,126
+2009,Anti_Hawaiian_Pacific_Islander,Race,0
+2009,Anti_Multiple,Race,179
+2009,Anti_Hispanic,Race,483
+2009,Anti_Other_Ethnicity,Race,294
+2009,Anti_Jewish,Religion,931
+2009,Anti_Catholic,Religion,51
+2009,Anti_Protestant,Religion,38
+2009,Anti_Islamic,Religion,107
+2009,Anti_Other_Religion,Religion,109
+2009,Anti_Multiple_Religions_Group,Religion,57
+2009,Anti_Atheism_Agnosticism,Religion,10
+2009,Anti_Gay,Sexual Orientation,682
+2009,Anti_Lesbian,Sexual Orientation,185
+2009,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,312
+2009,Anti_Heterosexual,Sexual Orientation,21
+2009,Anti_Bisexual,Sexual Orientation,23
+2009,Anti_Physical,Autre,25
+2009,Anti_Mental,Autre,71
+2009,Anti_Male,Autre,0
+2009,Anti_Female,Autre,0
+2009,Anti_Transgender,Autre,0
+2009,Anti_non_conforming,Autre,0
+2009,Multiple_Bias_Incidents,Autre,6
+2010,Anti_white,Race,575
+2010,Anti_Black,Race,2201
+2010,Anti_American_Indian_Alaska_Native,Race,44
+2010,Anti_Asian,Race,150
+2010,Anti_Hawaiian_Pacific_Islander,Race,0
+2010,Anti_Multiple,Race,165
+2010,Anti_Hispanic,Race,534
+2010,Anti_Other_Ethnicity,Race,313
+2010,Anti_Jewish,Religion,887
+2010,Anti_Catholic,Religion,58
+2010,Anti_Protestant,Religion,41
+2010,Anti_Islamic,Religion,160
+2010,Anti_Other_Religion,Religion,123
+2010,Anti_Multiple_Religions_Group,Religion,48
+2010,Anti_Atheism_Agnosticism,Religion,5
+2010,Anti_Gay,Sexual Orientation,739
+2010,Anti_Lesbian,Sexual Orientation,144
+2010,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,347
+2010,Anti_Heterosexual,Sexual Orientation,21
+2010,Anti_Bisexual,Sexual Orientation,26
+2010,Anti_Physical,Autre,19
+2010,Anti_Mental,Autre,24
+2010,Anti_Male,Autre,0
+2010,Anti_Female,Autre,0
+2010,Anti_Transgender,Autre,0
+2010,Anti_non_conforming,Autre,0
+2010,Multiple_Bias_Incidents,Autre,4
+2011,Anti_white,Race,504
+2011,Anti_Black,Race,2076
+2011,Anti_American_Indian_Alaska_Native,Race,61
+2011,Anti_Asian,Race,138
+2011,Anti_Hawaiian_Pacific_Islander,Race,0
+2011,Anti_Multiple,Race,138
+2011,Anti_Hispanic,Race,405
+2011,Anti_Other_Ethnicity,Race,315
+2011,Anti_Jewish,Religion,771
+2011,Anti_Catholic,Religion,67
+2011,Anti_Protestant,Religion,44
+2011,Anti_Islamic,Religion,157
+2011,Anti_Other_Religion,Religion,130
+2011,Anti_Multiple_Religions_Group,Religion,60
+2011,Anti_Atheism_Agnosticism,Religion,4
+2011,Anti_Gay,Sexual Orientation,760
+2011,Anti_Lesbian,Sexual Orientation,137
+2011,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,359
+2011,Anti_Heterosexual,Sexual Orientation,16
+2011,Anti_Bisexual,Sexual Orientation,21
+2011,Anti_Physical,Autre,19
+2011,Anti_Mental,Autre,34
+2011,Anti_Male,Autre,0
+2011,Anti_Female,Autre,0
+2011,Anti_Transgender,Autre,0
+2011,Anti_non_conforming,Autre,0
+2011,Multiple_Bias_Incidents,Autre,6
+2012,Anti_white,Race,657
+2012,Anti_Black,Race,1805
+2012,Anti_American_Indian_Alaska_Native,Race,101
+2012,Anti_Asian,Race,121
+2012,Anti_Hawaiian_Pacific_Islander,Race,0
+2012,Anti_Multiple,Race,113
+2012,Anti_Hispanic,Race,384
+2012,Anti_Other_Ethnicity,Race,283
+2012,Anti_Jewish,Religion,674
+2012,Anti_Catholic,Religion,70
+2012,Anti_Protestant,Religion,33
+2012,Anti_Islamic,Religion,130
+2012,Anti_Other_Religion,Religion,92
+2012,Anti_Multiple_Religions_Group,Religion,88
+2012,Anti_Atheism_Agnosticism,Religion,12
+2012,Anti_Gay,Sexual Orientation,605
+2012,Anti_Lesbian,Sexual Orientation,146
+2012,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,321
+2012,Anti_Heterosexual,Sexual Orientation,24
+2012,Anti_Bisexual,Sexual Orientation,39
+2012,Anti_Physical,Autre,18
+2012,Anti_Mental,Autre,74
+2012,Anti_Male,Autre,0
+2012,Anti_Female,Autre,0
+2012,Anti_Transgender,Autre,0
+2012,Anti_non_conforming,Autre,0
+2012,Multiple_Bias_Incidents,Autre,6
+2013,Anti_white,Race,653
+2013,Anti_Black,Race,1856
+2013,Anti_American_Indian_Alaska_Native,Race,129
+2013,Anti_Asian,Race,135
+2013,Anti_Hawaiian_Pacific_Islander,Race,3
+2013,Anti_Multiple,Race,95
+2013,Anti_Hispanic,Race,331
+2013,Anti_Other_Ethnicity,Race,324
+2013,Anti_Jewish,Religion,625
+2013,Anti_Catholic,Religion,70
+2013,Anti_Protestant,Religion,35
+2013,Anti_Islamic,Religion,135
+2013,Anti_Other_Religion,Religion,117
+2013,Anti_Multiple_Religions_Group,Religion,42
+2013,Anti_Atheism_Agnosticism,Religion,7
+2013,Anti_Gay,Sexual Orientation,750
+2013,Anti_Lesbian,Sexual Orientation,160
+2013,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,277
+2013,Anti_Heterosexual,Sexual Orientation,21
+2013,Anti_Bisexual,Sexual Orientation,25
+2013,Anti_Physical,Autre,22
+2013,Anti_Mental,Autre,61
+2013,Anti_Male,Autre,5
+2013,Anti_Female,Autre,13
+2013,Anti_Transgender,Autre,23
+2013,Anti_non_conforming,Autre,8
+2013,Multiple_Bias_Incidents,Autre,6
+2014,Anti_white,Race,593
+2014,Anti_Black,Race,1621
+2014,Anti_American_Indian_Alaska_Native,Race,130
+2014,Anti_Asian,Race,140
+2014,Anti_Hawaiian_Pacific_Islander,Race,3
+2014,Anti_Multiple,Race,81
+2014,Anti_Hispanic,Race,609
+2014,Anti_Other_Ethnicity,Race,64
+2014,Anti_Jewish,Religion,25
+2014,Anti_Catholic,Religion,154
+2014,Anti_Protestant,Religion,107
+2014,Anti_Islamic,Religion,44
+2014,Anti_Other_Religion,Religion,11
+2014,Anti_Multiple_Religions_Group,Religion,599
+2014,Anti_Atheism_Agnosticism,Religion,129
+2014,Anti_Gay,Sexual Orientation,241
+2014,Anti_Lesbian,Sexual Orientation,18
+2014,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,30
+2014,Anti_Heterosexual,Sexual Orientation,299
+2014,Anti_Bisexual,Sexual Orientation,349
+2014,Anti_Physical,Autre,23
+2014,Anti_Mental,Autre,61
+2014,Anti_Male,Autre,10
+2014,Anti_Female,Autre,23
+2014,Anti_Transgender,Autre,58
+2014,Anti_non_conforming,Autre,40
+2014,Multiple_Bias_Incidents,Autre,17
+2015,Anti_white,Race,613
+2015,Anti_Black,Race,1745
+2015,Anti_American_Indian_Alaska_Native,Race,131
+2015,Anti_Asian,Race,111
+2015,Anti_Hawaiian_Pacific_Islander,Race,4
+2015,Anti_Multiple,Race,113
+2015,Anti_Hispanic,Race,299
+2015,Anti_Other_Ethnicity,Race,257
+2015,Anti_Jewish,Religion,664
+2015,Anti_Catholic,Religion,53
+2015,Anti_Protestant,Religion,37
+2015,Anti_Islamic,Religion,257
+2015,Anti_Other_Religion,Religion,96
+2015,Anti_Multiple_Religions_Group,Religion,51
+2015,Anti_Atheism_Agnosticism,Religion,2
+2015,Anti_Gay,Sexual Orientation,664
+2015,Anti_Lesbian,Sexual Orientation,136
+2015,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,203
+2015,Anti_Heterosexual,Sexual Orientation,19
+2015,Anti_Bisexual,Sexual Orientation,31
+2015,Anti_Physical,Autre,43
+2015,Anti_Mental,Autre,31
+2015,Anti_Male,Autre,7
+2015,Anti_Female,Autre,16
+2015,Anti_Transgender,Autre,73
+2015,Anti_non_conforming,Autre,41
+2015,Multiple_Bias_Incidents,Autre,32
+2016,Anti_white,Race,720
+2016,Anti_Black,Race,1739
+2016,Anti_American_Indian_Alaska_Native,Race,154
+2016,Anti_Asian,Race,113
+2016,Anti_Hawaiian_Pacific_Islander,Race,9
+2016,Anti_Multiple,Race,136
+2016,Anti_Hispanic,Race,344
+2016,Anti_Other_Ethnicity,Race,223
+2016,Anti_Jewish,Religion,684
+2016,Anti_Catholic,Religion,62
+2016,Anti_Protestant,Religion,15
+2016,Anti_Islamic,Religion,307
+2016,Anti_Other_Religion,Religion,74
+2016,Anti_Multiple_Religions_Group,Religion,34
+2016,Anti_Atheism_Agnosticism,Religion,6
+2016,Anti_Gay,Sexual Orientation,675
+2016,Anti_Lesbian,Sexual Orientation,124
+2016,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,234
+2016,Anti_Heterosexual,Sexual Orientation,20
+2016,Anti_Bisexual,Sexual Orientation,23
+2016,Anti_Physical,Autre,26
+2016,Anti_Mental,Autre,44
+2016,Anti_Male,Autre,7
+2016,Anti_Female,Autre,24
+2016,Anti_Transgender,Autre,105
+2016,Anti_non_conforming,Autre,19
+2016,Multiple_Bias_Incidents,Autre,58
+2017,Anti_white,Race,741
+2017,Anti_Black,Race,2013
+2017,Anti_American_Indian_Alaska_Native,Race,251
+2017,Anti_Asian,Race,131
+2017,Anti_Hawaiian_Pacific_Islander,Race,16
+2017,Anti_Multiple,Race,180
+2017,Anti_Hispanic,Race,427
+2017,Anti_Other_Ethnicity,Race,270
+2017,Anti_Jewish,Religion,938
+2017,Anti_Catholic,Religion,73
+2017,Anti_Protestant,Religion,40
+2017,Anti_Islamic,Religion,273
+2017,Anti_Other_Religion,Religion,76
+2017,Anti_Multiple_Religions_Group,Religion,47
+2017,Anti_Atheism_Agnosticism,Religion,6
+2017,Anti_Gay,Sexual Orientation,679
+2017,Anti_Lesbian,Sexual Orientation,126
+2017,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,268
+2017,Anti_Heterosexual,Sexual Orientation,32
+2017,Anti_Bisexual,Sexual Orientation,25
+2017,Anti_Physical,Autre,32
+2017,Anti_Mental,Autre,84
+2017,Anti_Male,Autre,22
+2017,Anti_Female,Autre,24
+2017,Anti_Transgender,Autre,106
+2017,Anti_non_conforming,Autre,13
+2017,Multiple_Bias_Incidents,Autre,69
+2018,Anti_white,Race,762
+2018,Anti_Black,Race,1943
+2018,Anti_American_Indian_Alaska_Native,Race,194
+2018,Anti_Asian,Race,148
+2018,Anti_Hawaiian_Pacific_Islander,Race,20
+2018,Anti_Multiple,Race,137
+2018,Anti_Hispanic,Race,485
+2018,Anti_Other_Ethnicity,Race,276
+2018,Anti_Jewish,Religion,835
+2018,Anti_Catholic,Religion,53
+2018,Anti_Protestant,Religion,34
+2018,Anti_Islamic,Religion,188
+2018,Anti_Other_Religion,Religion,91
+2018,Anti_Multiple_Religions_Group,Religion,46
+2018,Anti_Atheism_Agnosticism,Religion,6
+2018,Anti_Gay,Sexual Orientation,726
+2018,Anti_Lesbian,Sexual Orientation,129
+2018,Anti_Lesbian_Gay_Bisexual_or_Transgender,Sexual Orientation,303
+2018,Anti_Heterosexual,Sexual Orientation,17
+2018,Anti_Bisexual,Sexual Orientation,21
+2018,Anti_Physical,Autre,60
+2018,Anti_Mental,Autre,99
+2018,Anti_Male,Autre,22
+2018,Anti_Female,Autre,25
+2018,Anti_Transgender,Autre,142
+2018,Anti_non_conforming,Autre,26
+2018,Multiple_Bias_Incidents,Autre,84
