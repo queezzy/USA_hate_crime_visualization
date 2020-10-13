@@ -1,9 +1,9 @@
  	
 var data_bar_chart;
 // set the dimensions and margins of the graph
-var margin_bar_chart = {top: 20, right: 20, bottom: 30, left: 80},
-    width_bar_chart = 800 - margin.left - margin.right,
-    height_bar_chart = 500 - margin.top - margin.bottom;
+var margin_bar_chart = {top: 20, right: 20, bottom: 30, left: 100},
+    width_bar_chart = 800 - margin_bar_chart.left - margin_bar_chart.right,
+    height_bar_chart = 500 - margin_bar_chart.top - margin_bar_chart.bottom;
 
 // set the ranges
 var y_bar_chart = d3.scaleBand()

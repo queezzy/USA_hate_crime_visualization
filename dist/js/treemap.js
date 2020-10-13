@@ -1,13 +1,13 @@
-var margin = {top: 10, right: 60, bottom: 10, left: 10},
-      width = 900 - margin.left - margin.right,
-      height = 700 - margin.top - margin.bottom;
+var margin_tree = {top: 10, right: 60, bottom: 10, left: 10},
+      width_tree = 900 - margin_tree.left - margin_tree.right,
+      height_tree = 700 - margin_tree.top - margin_tree.bottom;
 
 
 var svg_tree = d3.select("#treemap")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", width_tree + margin_tree.left + margin_tree.right)
+    .attr("height", height_tree + margin_tree.top + margin_tree.bottom)
     .append("g")
-    .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform","translate(" + margin_tree.left + "," + margin_tree.top + ")");
 
 var tooltip_tree;
 
@@ -35,12 +35,12 @@ function addTooltip_tree() {
         .style("stroke-width","0.5")
         .attr("transform", "translate(0, 5)");
     
-    var text = tooltip_tree.append("text") // Text that will contain all tspan (used for multilines)
+    var text_tree = tooltip_tree.append("text") // Text that will contain all tspan (used for multilines)
         .style("font-size", "13px")
         .style("fill", "#c1d3b8")
         .attr("transform", "translate(0, 20)");
     
-    text.append("tspan") // Country name udpated by its id
+        text_tree.append("tspan") // Country name udpated by its id
         .attr("x", 105) // ie, tooltip width / 2
         .attr("y", 0)
         .attr("id", "tooltip-bias-text")
@@ -48,14 +48,14 @@ function addTooltip_tree() {
         .style("font-weight", "100")
         .style("font-size", "12px");
     
-    text.append("tspan") // Fixed text
+        text_tree.append("tspan") // Fixed text
         .attr("x", 105) // ie, tooltip width / 2
         .attr("y", 30)
         .attr("text-anchor", "middle")
         .style("fill", "929292")
         .text("Num. Incidents : ");
     
-    text.append("tspan") // Score udpated by its id
+        text_tree.append("tspan") // Score udpated by its id
         .attr("id", "tooltip-bias-score")
         .style("fill","#c1d3b8")
         .style("font-weight", "bold");
@@ -79,7 +79,7 @@ function showdata(data){
 
     var root = d3.hierarchy(data).sum(function(d){ return d.value})
     d3.treemap()
-    .size([width, height])
+    .size([width_tree, height_tree])
     .paddingTop(28)
     .paddingRight(17)
     .paddingInner(10)     
@@ -150,18 +150,18 @@ function showdata(data){
 
         var bias_rect = d3.select("#treemap-bias-rect_" +Math.round(d.x0)+"_"+Math.round(d.x1)+"_"+Math.round(d.y0)+"_"+Math.round(d.y1));
         bias_rect
-            .on("mouseover", function(d) {
+            .on("mouseover", function(e) {
                 bias_rect.style("opacity", "0.2");
                 tooltip_tree.style("display", null);
                 tooltip_tree.select('#tooltip-bias-text').text(d.data.name)
                 tooltip_tree.select('#tooltip-bias-score').text(d.data.value);
             })
-            .on("mouseout", function(d) {
+            .on("mouseout", function(e) {
                 bias_rect.style("opacity", opacity(d.data.value));
                 tooltip_tree.style("display", "none");
             })
-            .on("mousemove", function(d) {
-                var mouse = d3.mouse(this);
+            .on("mousemove", function(e) {
+                var mouse = d3.pointer(e);
                 tooltip_tree.attr("transform", "translate(" + (mouse[0]-50) + "," + (mouse[1] - 75) + ")");
             });
 

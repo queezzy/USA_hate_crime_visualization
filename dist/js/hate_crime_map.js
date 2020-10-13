@@ -216,7 +216,7 @@ function render(actual_year,actual_curve,build_legend){
         var countryPath = d3.select("#code" + e.State_Code);
         countryPath.attr("scorecolor", quantile(+e[actual_curve]))
                     .style("fill", quantile(+e[actual_curve]))
-                    .on("mouseover", function(d) {
+                    .on("mouseover", function(event) {
                         countryPath.style("fill", "#9966cc");
                         tooltip.style("display", null);
                         tooltip.select('#tooltip-country')
@@ -228,13 +228,13 @@ function render(actual_year,actual_curve,build_legend){
                             .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (getColorIndex(quantile(+e[actual_curve])) * legendCellSize) + ')')
                             .style("display", null);
                     })
-                    .on("mouseout", function(d) {
+                    .on("mouseout", function(event) {
                         countryPath.style("fill", quantile(+e[actual_curve]));
                         tooltip.style("display", "none");
                         legend.select("#cursor").style("display", "none");
                     })
-                    .on("mousemove", function(d) {
-                        var mouse = d3.mouse(this);
+                    .on("mousemove", function(event) {
+                        var mouse = d3.pointer(event);
                         tooltip.attr("transform", "translate(" + mouse[0] + "," + (mouse[1] - 75) + ")");
                     });
     });
