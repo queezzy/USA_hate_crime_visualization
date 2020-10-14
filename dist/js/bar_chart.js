@@ -2,9 +2,9 @@
 var data_bar_chart;
 var svg_bar_chart = d3.select("#bar_chart");
 // set the dimensions and margins of the graph
-var margin_bar_chart = {top: 20, right: 20, bottom: 30, left: 100},
-    width_bar_chart = +svg_bar_chart.attr("width") - margin_bar_chart.left - margin_bar_chart.right,
-    height_bar_chart = +svg_bar_chart.attr("height") - margin_bar_chart.top - margin_bar_chart.bottom;
+var margin_bar_chart = {top: 20, right: 20, bottom: 30, left: 200}
+var width_bar_chart = +svg_bar_chart.attr("width") //- margin_bar_chart.left - margin_bar_chart.right,
+var height_bar_chart = +svg_bar_chart.attr("height") //- margin_bar_chart.top - margin_bar_chart.bottom;
 
 // set the ranges
 var y_bar_chart = d3.scaleBand()
@@ -17,10 +17,9 @@ var x_bar_chart = d3.scaleLinear()
 // append the svg object to the body of the page
 // append a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
-svg_bar_chart
-    .attr("width", width_bar_chart + margin_bar_chart.left + margin_bar_chart.right+350)
-    .attr("height", height_bar_chart + margin_bar_chart.top + margin_bar_chart.bottom)
-    .append("g") 
+//.attr("width", width_bar_chart + margin_bar_chart.left + margin_bar_chart.right+350)
+//    .attr("height", height_bar_chart + margin_bar_chart.top + margin_bar_chart.bottom)
+svg_bar_chart = svg_bar_chart.append("g") 
     .attr("transform", "translate(" + margin_bar_chart.left + "," + margin_bar_chart.top + ")");
 
 d3.csv("../../dist/dataset/bar_chart_dataset.csv").then(render_bar_chart)

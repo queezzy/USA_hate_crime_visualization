@@ -135,13 +135,7 @@ Promise.all(promises).then(function(values) {
     incidents_all = values[1];
   
     
-    /*var b  = path.bounds(geojson),
-        s = 0.20 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
-        t = [(width - s * (b[1][0] + b[0][0])) / 2.0, (height - s * (b[1][1] + b[0][1])) / 2];
-
-    projection
-        .scale(s)
-        .translate(t);*/
+  
     
     cGroup.selectAll("path")
             .data(geojson.features)
@@ -150,7 +144,7 @@ Promise.all(promises).then(function(values) {
             .attr("d", path)
             .attr("id", d => "code" + d.properties.STATE_CODE)
             .attr("class","us_state_boundary");
-            //.attr("class", "country");
+            
     
     tooltip = addTooltip();
 
