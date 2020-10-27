@@ -93,8 +93,6 @@ function showdata(data){
     .paddingTop(28)
     .paddingRight(17)
     .paddingInner(10)     
-    //.paddingOuter(6)
-    //.padding(20)
     (root)
 
     var color = d3.scaleOrdinal()
