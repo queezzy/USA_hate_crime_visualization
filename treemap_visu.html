@@ -38,13 +38,22 @@
         <div class="row">
           <div class="col-12">
             
-            <p><h2>Projet Visualisation d'Informations N°3: Visualisation d'arbre</h2></p>
+            <p><h2>Projet Visualisation d'Informations N°3: Visualisation d'arbres</h2></p>
             <hr class="text-success"/>
-            <p>Le but de ce projet est de présenter des visualisations d'arbre en utilisant au moins deux méthodes
-              implémentées dans d3.js . Nous avons notamment présenté une représentation basé sur le principe d'indentation et 
-              des représentations basées sur l'algorithme Reingold-Tilford. Le fichier utilisé est un fichier de repertoire, moyennement dense 
-              en terme de nombre de feuilles et nous permet suivant les schémas de voir ceux qui s'adaptent le mieux à la visualisation.
+            <p>
+              <h5>Le but de ce projet est de passer en revu différents types de visualisations d'arbres
+                en s'appuyant sur des méthodes implémentées dans d3.js.
+                Le fichier utilisé est un fichier de repertoire, moyennement dense en terme de 
+                nombre de feuilles et qui nous permet suivant les schémas de voir ceux qui s'adaptent le
+                mieux à la visualisation.
+                </br></br>Pour méner à bien ce projet, un ensemble de quatre (4) visualisations ont été
+                retenus. Il s'agit notamment d'une représentation basé sur le principe d'indentation
+                et de trois (3) représentations  basées sur l'algorithme Reingold-Tilford.
+                </br>Pour chacune de ces visualisations, un descriptif fasiant ressortir les avantages et
+                les limites a été proposé.
+                </h5>
             </p>
+              <p></br></p>
           </div>
         </div>
       </div>
@@ -59,7 +68,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <input class="custom-checkbox" type="checkbox" id="checkbox1">
-                <label class="tab-label text-white mb-0" for="checkbox1"> Indented Tree Visualisation </label>
+                <label class="tab-label text-white mb-0" for="checkbox1"> Visualisation 1 : Arbre indenté (Indented Tree)</label>
               </button>
             </h2>
           </div>
@@ -74,9 +83,17 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p style="font-size: normal; font-weight: bolder;">
-                      Cette représentation est 
-
+                      L'<b>arbre indenté (indented Tree) </b>est une des représentations graphiques sous forme d'arborescence
+                      (hierarchique) d'un ensemble de dossiers et de fichiers. Sa structure indentée permet de repérer,
+                      assez rapidement, la position d'un élément dans l'arborescence. Aussi, le nombre de traits verticaux
+                      derrière un élément correspond à la profondeur de cet élément dans la structure globale du repertoire racine.
+                      </br></br>Si il peut présenter la facheuse tendance d'être étalée pour les repertoires très denses, ce type de graphique 
+                      présente l'avantage d'une clarté à toute épreuve (même si les repertoires ou les fichiers ont des noms plutôt longs).
+                      En effet, à chaque ligne de cette representation correspond un unique élément dans l'arborescence décrite ; cela facilite
+                      énormement la lecture du graphique.
+                      
                     </p>
+                    <p></br></br></p>
 
                   </div>
                 
@@ -84,7 +101,7 @@
                   
                 </div>
 
-                <div class="row title_of_chart"><h3 class="">Indented Tree</h3></div>  
+                <div class="row px-5 title_of_chart justify-content-center"><h3 class="">Arbre indenté (Indented Tree)</h3></div>  
 
                 <div class="row svg justify-content-center" style="max-height: 800px;">
                   <svg id="treemap1" width=800 height=3600 viewBox="0 0 800 3600">
@@ -104,7 +121,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <input class="custom-checkbox" type="checkbox" id="checkbox2">
-                <label class="tab-label text-dark mb-0" for="checkbox2">Clustered Dendrogram Visualisation </label>
+                <label class="tab-label text-dark mb-0" for="checkbox2">Visualisation 2 : Dendrogramme groupé (Clustered Dendrogram) </label>
               </button>
             </h2>
           </div>
@@ -118,25 +135,24 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p style="font-size: normal; font-weight: bolder;">
-                      Chaque courbe de ce graphique représente l'évolution au fil des années, d'incidents haineux suivant 
-                      une typlogie principale de biais de motivation. Nous nous sommes restreints aux principaux biais qui ressortent 
-                      du graphe précédent, à savoir : la race, la religion et l'orientation sexuelle. Ainsi 
-                      afin d'appréhender cette évolution, on a opté pour des courbes linéaires évolutives car elles permettent de voir 
-                      rapidement les tendances et de faire une pseudo-analyse rapide.
-                      <br/>On remarque une constance dans la tendance globale des crimes haineux motivés par le biais anti-religieux et de l'orientation sexuelle
-                      sur la période 2005-2012 (Correspondant aux mandats Bush et Obama). Toutefois, entre 2008 et 2014 , on note une baisse de plus de 20% sur les crimes à motivation anti-raciale, 
-                      avant qu'ils n'atteignent le pick à partir de 2017 (Correspondant à la fin de la période Obama au début période Trump)
-                    </p>
+                      Cette représentation affiche tous les éléments terminaux (feuilles) sur le même axe vertical.
+                      On peut ainsi, de façon visuelle, voir les dossiers les plus denses (nombre d'arcs).
+                      Toutefois, cette schématisation présente selon nous deux inconvénients majeurs:
+                      </br><b>- </b> Des éléments non finaux de profondeur différente sont parfois alignés ;
+                      </br><b>- </b> Du fait que les feuilles soient sur le même axe vertical, celui-ci se retrouve
+                      très surchargé si la racine est dense ; cela peut rendre la lecture du graphique très fastidieuse.
+                    </p> 
+                    <p></br></br></p>
 
                   </div>
                   
                   
                 </div>
-                <div class="row px-5 title_of_chart justify-content-center"><h3 class="">Courbes evolutives: Evolution temporelle des incidents/crimes haineux suivant le biais de motivation</h3></div>
-
+                <div class="row px-5 title_of_chart justify-content-center"><h3 class="">Dendrogramme groupé (Clustered Dendrogram)</h3></div>
+                
                 <div class="row svg justify-content-center">
 
-                  <svg id="treemap2" width=1600 height=1600 viewBox="0 0 1800 1600">
+                  <svg id="treemap2" width=1200 height=1200 viewBox="0 50 1310 1200">
 
                   </svg>
                     
@@ -154,7 +170,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <input class="custom-checkbox" type="checkbox" id="checkbox4">
-                <label class="tab-label text-white mb-0" for="checkbox4">Radial Tidy Tree</label>
+                <label class="tab-label text-white mb-0" for="checkbox4">Visualisation 3 : Arbre en rangée radial (Radial Tidy Tree)</label>
               </button>
             </h2>
           </div>
@@ -168,27 +184,28 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p style="font-size: normal; font-weight: bolder;">
-                      Ce graphique permet de représenter les contributions pour chaque biais de motivation,
-                       des modalités qui la constituent. Elle ressort de facon spécifiquement la communauté particulièrement 
-                       ciblé par un incident/crime haineux. Par exemple, pour le biais de motivation racial, une modalité constitutrice est 
-                       le caractère anti-noir (haine envers les noirs), anti-blanc (haine envers un blanc), etc. Nous avons une fois de Plus
-                       regroupés au travers de la couleur, chaque modalité dans le biais qu'il représente. Ainsi des modalités d'une même couleur 
-                       représenteront un même biais de motivation. Une visualisation dépendamment de l'année est possible grâce au choix de l'année.
-                      <br/>Globalement les observations analytiques sont les mêmes que les deux premieres visualisations.
-                 
+                      Un <b>arbre en rangée radial (radial tidy tree)</b>, comme son nom l'indique permet une représentation circulaire (radiale)
+                      de l'arborescence d'un répertoire. </br>Dans cette représentation, le dossier parent (la racine du répertoire) occupe
+                      la position centrale ; les sous-répertoires ainsi que les fichiers gravitent autour du centre.
+                      Plus un élément est éloigné du centre (racine), plus la profondeur de cet élément est élevée.
+                      </br></br>La représentation circulaire de l'arborescence constitue une meilleure occupation spatiale
+                      pour représenter l'ensemble de l'information mais présente une complexité assez élevée dès lors
+                      que la structure des répertoires devient dense. En effet, en présence de répertoires denses,
+                      les différents arcs s'entremêlent et rend la structure du graphique très chaotique.
                       
                     </p>
+                    <p></br></br></p>
 
                   </div>
       
                   
                 </div>
 
-              <div class="row title_of_chart justify-content-center"><h3 class="">Radial Tidy Tree</h3></div>  
+              <div class="row title_of_chart justify-content-center"><h3 class="">Arbre en rangée radial (Radial Tidy Tree)</h3></div>  
  
          
                 <div class="row justify-content-center">
-                  <svg id="treemap3" width=1600 height=1600 viewBox="0 0 1600 1600" class="svg">
+                  <svg id="treemap3" width=1200 height=1200 viewBox="0 50 1310 1200" class="svg">
 
 
                   </svg>
@@ -205,7 +222,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <input class="custom-checkbox" type="checkbox" id="checkbox3">
-                <label class="tab-label text-dark mb-0" for="checkbox3">Tidy Tree</label>
+                <label class="tab-label text-dark mb-0" for="checkbox3">Visualisation 4 : Arbre en rangée (Tidy Tree)</label>
               </button>
             </h2>
           </div>
@@ -219,22 +236,16 @@
                     <h4 class="text-bold">Description</h4>
                     <hr class="text-success"/>
                     <p style="font-size: normal; font-weight: bolder;">
-                      Ce graphique permet de représenter géographiquement, dépendamment des Etats, les incidents 
-                      de crimes haineux, en fonction du temps, et d'une métrique particulière.
-                      bien défini
-                      <br/>En changeant les modalités, on remarque que les Etats de Californie, du New Jersey, de New york, du Michigan 
-                      sont les foyers des incidents de crimes haineux. L'Etat de Californie enregistre les nombre d'incidents 
-                      de crimes haineux les plus élevés pour les trois types de crimes haineux(anti-race, anti-religion, 
-                      anti-orientation sexuelle). Quant à New York, c'est l'Etat qui connaît le plus de crime haineux de 
-                      type anti-religion. Cependant il est à signaler ici, que l'analyse et la visualisation
-                      ne prend pas en compte la population qui pourrait expliquer certaines différences entre Etats.
+                      Un arbre en rangée (tidy tree en anglais) combine les avantages du <b>dendogramme groupé (Clustered dendrogram en anglais)</b>  et de l'<b> arbre indenté (indented tree)</b>.
+                      Cela lui permet de tirer le meilleur parti de ces deux représentation d'une part d'assurer plus de fluidité (les éléments terminaux n'étants plus sur
+                      le même axe vertical) et d'autre part, les éléments d'une même profondeur sont alignés verticalement.
                  
                     </p>
 
                   </div>
               
                 </div>
-               <div class="row title_of_chart justify-content-center"><h3 class="">Tidy Tree</h3></div>
+               <div class="row title_of_chart justify-content-center"><h3 class="">Arbre en rangée (Tidy Tree)</h3></div>
              
                 <div class="row justify-content-center">
                   <svg id="treemap4" width=1200 height=1200 viewBox="0 0 1200 1200" class="svg">
