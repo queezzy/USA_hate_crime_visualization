@@ -2,12 +2,12 @@
 var width_2, height_2;
 const margin_2 = {top: 10, right: 10, bottom: 10, left: 10}
 
-tree = data => {
-    const root = d3.hierarchy(data).sort((a, b) => d3.descending(a.height, b.height) || d3.ascending(a.data.name, b.data.name));
-    root.dx = 10;
-    root.dy = width_2 / (root.height + 1);
-    console.log(root.height)
-    return d3.cluster().size([height_2,width_2])(root);
+tree_2 = data => {
+    var root_2 = d3.hierarchy(data).sort((a, b) => d3.descending(a.height, b.height) || d3.ascending(a.data.name, b.data.name));
+    root_2.dx = 10;
+    root_2.dy = width_2 / (root_2.height + 1);
+    console.log(root_2.height)
+    return d3.cluster().size([height_2,width_2])(root_2);
   }
 
 
@@ -17,25 +17,25 @@ chart_2 = data => {
     var svg_2 = d3.select("#treemap2");
     width_2 = +svg_2.attr("width") 
     height_2 = +svg_2.attr("height") 
-    const root = tree(data); 
+    var root_2 = tree_2(data); 
     svg_2.append("g")
       .attr("fill", "none")
       .attr("stroke", "#555")
       .attr("stroke-opacity", 0.4)
       .attr("stroke-width", 1.5)
       .selectAll("path")
-      .data(root.links())
+      .data(root_2.links())
       .join("path")
         .attr("d", d => `
           M${d.target.y},${d.target.x}
-          C${d.source.y + root.dy / 2},${d.target.x}
-           ${d.source.y + root.dy / 2},${d.source.x}
+          C${d.source.y + root_2.dy / 2},${d.target.x}
+           ${d.source.y + root_2.dy / 2},${d.source.x}
            ${d.source.y},${d.source.x}
         `);
   
     svg_2.append("g")
       .selectAll("circle")
-      .data(root.descendants())
+      .data(root_2.descendants())
       .join("circle")
         .attr("cx", d => d.y)
         .attr("cy", d => d.x)
@@ -48,7 +48,7 @@ chart_2 = data => {
         .attr("stroke-linejoin", "round")
         .attr("stroke-width", 3)
       .selectAll("text")
-      .data(root.descendants())
+      .data(root_2.descendants())
       .join("text")
         .attr("x", d => d.y)
         .attr("y", d => d.x)
