@@ -62,4 +62,4 @@ chart_3 = data => {
     
 }
 
-d3.json("../../folder_to_json.json").then(chart_3)
+d3.json("../../dist/dataset/folder_to_json.json").then(chart_3)

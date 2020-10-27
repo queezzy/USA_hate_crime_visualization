@@ -38,4 +38,4 @@ chart_4 = data => {
         //.text(d => d.data.data.id);
   };
 
-  d3.json("../../folder_to_json.json").then(chart_4)
+  d3.json("../../dist/dataset/folder_to_json.json").then(chart_4)

@@ -61,4 +61,4 @@ chart_2 = data => {
         .attr("stroke", "white");
   
 }
-d3.json("../../folder_to_json.json").then(chart_2)
+d3.json("../../dist/dataset/folder_to_json.json").then(chart_2)
